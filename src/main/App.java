@@ -1,7 +1,6 @@
 package main;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
@@ -12,6 +11,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
+import DBUtil.DBUtil;
 
 public class App {
 	static Connection conn = null;
@@ -22,202 +22,151 @@ public class App {
 		while (true) {
 			System.out.println("명령어 > ");
 			String cmd = sc.nextLine();
-			Connection conn = null;
-
-			try {
-				Class.forName("com.mysql.jdbc.Driver");
-				String url = "jdbc:mysql://127.0.0.1:3306/JAM?useUnicode=true&characterEncoding=utf8&autoReconnect=true&serverTimezone=Asia/Seoul&useOldAliasMetadataBehavior=true&zeroDateTimeNehavior=convertToNull";
-
-				conn = DriverManager.getConnection(url, "root", "");
-				System.out.println("연결 성공!");
-				
-				
-				int actionResult = doAction(conn, sc, cmd);
-				
-				if(actionResult == -1) {
-					System.out.println("시스템을 종료합니다");
-					break;
-				}
-				
-				
-				
-				
-				
-			} catch (ClassNotFoundException e) {
-				System.out.println("드라이버 로딩 실패");
-			} catch (SQLException e) {
-				System.out.println("에러 : " + e);
-			} finally {
-				try {
-					if (conn != null && !conn.isClosed()) {
-						conn.close();
-					}
-				} catch (SQLException e) {
-					e.printStackTrace();
-				}
+			
+			conn=DBUtil.Connect(conn);
+			int action = doAction(conn, sc, cmd);
+			conn=DBUtil.ConnectClose(conn);
+			if(action ==-1) {
+				System.out.println("시스템을 종료하겠습니다");
+				break;
 			}
-
-			if (cmd.equals("article write")) {
-				
+			
 			}
 		}
-	}
-
+	
 	private static int doAction(Connection conn, Scanner sc, String cmd) {
-		if(cmd.equals("article write")) {
-				System.out.println("title : ");
-				String title = sc.nextLine();
-				System.out.println("body : ");
-				String body = sc.nextLine();
-				
-				PreparedStatement pstmt = null;
-				
-				try {
-					String sql = "INSERT INTO article SET regDate=NOW(), updateDate=NOW(),"; 
-					sql+= "title= '"+title+"',  `body`= '"+body+"';";
-					System.out.println(sql);
-					pstmt = conn.prepareStatement(sql);
-					int affectedRow = pstmt.executeUpdate();
-					System.out.println("affectedRow : "+affectedRow); 
-				
-				}catch(SQLException e) {
-					System.out.println("에러1"+e);
-				}finally {
-					try {
-						if(pstmt != null && !pstmt.isClosed()) {
-							pstmt.close();
-						}
-					}catch(SQLException e) {
-						e.printStackTrace();
-					}
-				}
-				
-			return 0;
-		}else if(cmd.startsWith("article modify")) {
-			String cmdDiv[] = cmd.split(" ");
-			if (cmdDiv.length!=3) {
-				System.out.println("잘못 입력했다!");
-				return 0;
-			}
-			int id = Integer.parseInt(cmdDiv[2]);
-			
-			PreparedStatement pstmt = null;
+		if (cmd.equals("article write")) {
+			PreparedStatement pstmt=null;
 			ResultSet rs = null;
 			
-			Map<String, Object> articleMap;
-			List<Map<String, Object>>rows = new ArrayList<>();
+			System.out.println("제목 : ");
+			String title = sc.nextLine();
+			System.out.println("내용 : ");
+			String body = sc.nextLine();
+			
+			String sql="insert into article set ";
+			sql +="regDate = now(), updateDate = now(), ";
+			sql +="title = '"+title+"', `body` = '"+body+"', hit = 0;";
 			try {
-				String sql = "select * from article ";
-				sql += "where id="+id+";";
+			pstmt = conn.prepareStatement(sql);
+			int affectedRow = pstmt.executeUpdate();
+			System.out.println(affectedRow+"행 업데이트 완료!");
+			}catch(SQLException se) {
+				System.out.println("오류발생");
+			}finally {
+				DBUtil.CloseDB(pstmt, rs);
+			}
+			
+			return 0;
+		}else if(cmd.equals("article list")) {
+			PreparedStatement pstmt=null;
+			ResultSet rs = null;
+			String sql = "select * from article";
+			List<Map<String, Object>> rows=new ArrayList<>();
+			try {
 				pstmt=conn.prepareStatement(sql);
-				rs=pstmt.executeQuery(sql);
-				ResultSetMetaData metaData= rs.getMetaData();
-				int columnSize = metaData.getColumnCount();
-				if(columnSize==0) {
-					System.out.println("찾는 게시물이 없습니다");
-				}
+				rs=pstmt.executeQuery();
+				ResultSetMetaData metaData=rs.getMetaData();
+				int columnSize=metaData.getColumnCount();
+				
+				System.out.println("번호    /     제목     /     내용    ");
 				while(rs.next()) {
-					Map<String, Object> row = new HashMap<>();
-					
-					for(int columnIndex=0; columnIndex<columnSize; columnIndex++) {
-						String columnName = metaData.getColumnName(columnIndex+1);
-						Object value = rs.getObject(columnName);
-						
-						row.put(columnName,  value);
+					Map<String, Object> row=new HashMap<>();
+					for(int i=0; i<columnSize; i++) {
+						String columnName=metaData.getColumnName(i+1);
+						Object columnValue=rs.getObject(columnName);
+						row.put(columnName, columnValue);
 					}
 					rows.add(row);
 				}
-				System.out.println(rows.get(0));
-			
+				for(int i=rows.size()-1;i>=0;i-- ) {
+					System.out.println(rows.get(i).get("id")+"   /  "+rows.get(i).get("title")+"  /  "+   rows.get(i).get("body"));
+				}
 				
 				
-			}catch(IndexOutOfBoundsException ie) {
-				System.out.println("찾는 게시물이 없습니다");
-				return 0;
-			}catch(SQLException e) {
-				System.out.println("에러");
-				e.printStackTrace();
+			}catch(SQLException se) {
+				System.out.println("오류");
+				se.printStackTrace();
 			}finally {
-				if(rs!=null) try {rs.close();} catch(SQLException ex) {}
-				if(pstmt!=null) try {pstmt.close();} catch(SQLException ex) {}
+				DBUtil.CloseDB(pstmt, rs);
 			}
 			return 0;
-		}else if(cmd.startsWith("article list")) {
-			String sql = "select * from article";
+		}else if(cmd.startsWith("article modify")) {
 			PreparedStatement pstmt=null;
-			ResultSet rs = null;
-			try {
-				pstmt = conn.prepareStatement(sql);
-				rs=pstmt.executeQuery();
-				while(rs.next()) {
-					
-				}
-			}catch(SQLException e) {
-				e.printStackTrace();
-			}finally {
-				 try{if(pstmt!=null && !pstmt.isClosed())pstmt.close();}catch(SQLException e) {};
-				 try{if(rs!=null && !rs.isClosed())rs.close();}catch(SQLException e) {};
-			}
-			
-		}else if(cmd.startsWith("article delete")) {
+			ResultSet rs = null;			
 			String cmdDiv[] = cmd.split(" ");
-			if(cmdDiv.length!=3) {
-				System.out.println("잘못 입력하였습니다");
+			if(cmdDiv.length !=3) {
+				System.out.println("검색어를 잘못 입력했다");
+				return 0;
 			}
 			int id = Integer.parseInt(cmdDiv[2]);
+			String sql = "select * from article where id ="+id+";";
+			try {
+				pstmt=conn.prepareStatement(sql);
+				rs=pstmt.executeQuery();
+				if(rs.next()==false) {
+					System.out.println("찾는 게시물이 없다");
+					return 0;
+				}
+			}catch(SQLException se){
+				System.out.println("오료");
+				se.printStackTrace();
+			}finally {
+				DBUtil.CloseDB(pstmt, rs);
+			}
+			System.out.println("제목 > ");
+			String title = sc.nextLine();
+			System.out.println("내용 > ");
+			String body = sc.nextLine();
 			
-			PreparedStatement pstmt = null;
-			ResultSet rs = null;
-			
-			String sql = "select * from article ";
-			sql+="where id="+id+";";
-			List<Map<String, Object>> rows=new ArrayList<>();
+			sql="update article set ";
+			sql+="title = '"+title+"', ";
+			sql+="`body`= '"+body+"' where id ="+id+";";
 			try {
 			pstmt=conn.prepareStatement(sql);
-			rs=pstmt.executeQuery();
-			ResultSetMetaData metadata = rs.getMetaData();
-			int columnSize = metadata.getColumnCount();
-			while(rs.next()) {
-				Map<String, Object> row = new HashMap<>();
-				
-				for(int columnIndex =0; columnIndex<columnSize; columnIndex++ ) {
-					String columnName = metadata.getColumnName(columnIndex+1);
-					Object columnvalue = rs.getObject(columnName);
-					row.put(columnName, columnvalue);
+			int affectedRow=pstmt.executeUpdate();
+			System.out.println(affectedRow+"행 업데이트 완료");
+			}catch(SQLException se){System.out.println("오료");se.printStackTrace();
+			}finally {DBUtil.CloseDB(pstmt, rs);}
+			
+		}else if(cmd.startsWith("article delete")){
+			PreparedStatement pstmt=null;
+			ResultSet rs = null;			
+			String cmdDiv[] = cmd.split(" ");
+			if(cmdDiv.length !=3) {
+				System.out.println("검색어를 잘못 입력했다");
+				return 0;
+			}
+			int id = Integer.parseInt(cmdDiv[2]);
+			String sql = "select * from article where id ="+id+";";
+			try {
+				pstmt=conn.prepareStatement(sql);
+				rs=pstmt.executeQuery();
+				if(rs.next()==false) {
+					System.out.println("찾는 게시물이 없다");
+					return 0;
 				}
-				rows.add(row);
-			}
-			System.out.println(rows);
-			sql="delete from article where id="+id;
-			pstmt=conn.prepareStatement(sql);
-			int affectedRow = pstmt.executeUpdate();
-			System.out.println(affectedRow);
-			}catch(IndexOutOfBoundsException ie) {
-				System.out.println("찾는 게시물이 없습니다");
-				ie.printStackTrace();
-			}catch(SQLException e) {
-				e.printStackTrace();
-				System.out.println("오류 발생");
+			}catch(SQLException se){
+				System.out.println("오료");
+				se.printStackTrace();
 			}finally {
-				try {if(pstmt != null && !pstmt.isClosed()) {}}catch(SQLException e){};
-				try {if(rs != null && !pstmt.isClosed()){}}catch(SQLException e){};
+				DBUtil.CloseDB(pstmt, rs);
 			}
-		}else if(cmd.equals("member join")) {
-			return 0;
-		}else {
+			sql="delete from article where id="+id+";";
+			try {
+				pstmt=conn.prepareStatement(sql);
+				int affectedRow=pstmt.executeUpdate();
+				System.out.println(affectedRow+"행 삭제 완료");
+				
+			}catch(SQLException se){System.out.println("오료");se.printStackTrace();
+			}finally {DBUtil.CloseDB(pstmt, rs);}
+		}else if(cmd.equals("exit")) {
 			return -1;
+		}else{
+			System.out.println("잘못된 입력");
+			return 0;
 		}
 		return 0;
+
 	}
-
 }
-
-
-
-
-
-
-
-
-
-
