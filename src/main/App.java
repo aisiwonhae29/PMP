@@ -160,6 +160,45 @@ public class App {
 				
 			}catch(SQLException se){System.out.println("오료");se.printStackTrace();
 			}finally {DBUtil.CloseDB(pstmt, rs);}
+		}else if(cmd.equals("member join")) {
+			PreparedStatement pstmt=null;
+			ResultSet rs = null;			
+			System.out.println("아이디를 입력해주세요");
+			String userId = sc.nextLine();
+			String userPw=null;
+			String sql = "select * from `member` where userId='"+userId+"';";
+			try {
+				pstmt=conn.prepareStatement(sql);
+				rs=pstmt.executeQuery();
+				if(rs.next()) {
+					System.out.println("중복된 아이디 입니다.");
+					return 0;
+				}
+			}catch(SQLException se){System.out.println("오류");se.printStackTrace();
+			}finally {DBUtil.CloseDB(pstmt, rs);}
+			while(true) {
+				System.out.println("비밀번호를 입력해주세요");
+				userPw=sc.nextLine();
+				System.out.println("비밀번호 확인");
+				if(userPw.equals(sc.nextLine())) {
+					System.out.println("이름을 입력해주세요");
+					break;
+				}else {
+					System.out.println("비밀번호를 확인해주세요");
+				}
+			}
+			String userName=sc.nextLine();
+			sql	="insert into `member` set ";
+			sql+="regDate=now(), updateDate=now(), ";
+			sql+="userId = '"+userId+"', ";
+			sql+="userPw = '"+userPw+"', ";
+			sql+="userName = '"+userName+"';";
+			try {
+				pstmt=conn.prepareStatement(sql);
+				int affectedRow=pstmt.executeUpdate();
+				System.out.println(affectedRow+"개 업데이트 완료!");
+			}catch(SQLException se){System.out.println("오류");se.printStackTrace();
+			}finally {DBUtil.CloseDB(pstmt, rs);}
 		}else if(cmd.equals("exit")) {
 			return -1;
 		}else{
