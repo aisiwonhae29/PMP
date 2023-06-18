@@ -1,0 +1,21 @@
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="test"></div>
+    <button onclick="activate()">button</button>
+    <script>
+        function activate(){
+            var a=1;
+            var c="asd";
+            var b=test(a,c);
+            $('#test').text(b);
+        }
+        function test(a, b){
+            return a+b;
+        }
+        //function can get 2 parameter or over
+    </script>
+</body>
+</html>
