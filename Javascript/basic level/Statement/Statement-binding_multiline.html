@@ -1,0 +1,23 @@
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="test"></div>
+    <button onclick="activate()">button</button>
+    <script>
+        //use backtics( ` ) not singlie or double quote (' / ")
+        var value=`
+        hello
+        worlds
+        multiline selector  
+        `;
+        function activate(){
+            
+            $('#test').text(value);
+        }
+        
+
+    </script>
+</body>
+</html>
