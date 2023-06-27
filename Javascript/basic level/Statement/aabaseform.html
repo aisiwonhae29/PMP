@@ -1,0 +1,26 @@
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+    <div>1000 up & down</div>
+    <div>
+        <input type="number" id="test"><button onclick="activate()">up&down</button>
+    </div>
+    <div>Country that spinx located with english</div>
+    <div>
+        <input type="text" id="test2"><button onclick="activate2()">button</button>
+    </div>
+    <script>
+        function activate(){
+            let value=($('#test').val()>1000 ? 'higher' : 'lower');
+            console.log(value);
+        }
+        function activate2(){
+            let value=($('#test2').val()=='egypt'? 'correct!!!!' : 'wrong~~~');
+            console.log(value);
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+    <input type="text" id="txtval">
+    <button onclick="activate()">button</button>
+    <script>
+        function test1(){
+            test3(test2);
+        }
+        function test2(param){
+            console.log(param);
+        }
+        function test3(func){
+            func('hello worlds');
+        }
+        function activate(){
+            test1();
+        }
+        
+
+    </script>
+</body>
+</html>
