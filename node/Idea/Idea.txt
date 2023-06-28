@@ -1,0 +1,6 @@
+
+* call back function
+
+- Asynchronous
+- nonblocking > not return state > makes executing other task while wating I/O operate
+
