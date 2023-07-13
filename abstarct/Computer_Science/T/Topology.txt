@@ -1,0 +1,11 @@
+Topology
+
+refers to the arrangement, structure or organization of components or elements in a system or network. it determines how the various parts of a system or network are connected and communicate with each other.
+
+Topology can be used to describe different aspects of a programming system.
+
+1. Network Topology
+
+2. Data Structure Topology
+
+3. System Architecture Topology
