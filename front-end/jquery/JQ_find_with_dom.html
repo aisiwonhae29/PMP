@@ -1,0 +1,19 @@
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+    <div data_row="2" id="test">2층</div>
+    <div name="siwon"></div>
+    <button onclick="activate()">button</button>
+    <script>
+        function activate(){
+            var element = $('div[data_row="2"]');
+            var siwon = $('div[name="siwon"]');
+            siwon.text('알아러ㅏㅓ');
+            
+           console.log(element.text());
+        }
+    </script>
+</body>
+</html>

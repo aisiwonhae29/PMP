@@ -1,0 +1,7 @@
+https://en.wikipedia.org/wiki/Packet_switching
+
+packet switching method is grouping data into packets that are transmitted over a digital network. 
+
+Packets are made of a header and a payload.
+
+Concept : 

@@ -1,0 +1,8 @@
+https://en.wikipedia.org/wiki/Payload_(computing)
+
+In computing and telecommunications, the payload is the part of transmitted data that is the actual intended message. Headers and metadata are sent only to enable payload delivery.
+
+In the context of a computer virus or worm, the payload is the portion of the malware which performs malicious action.
+
+The term is borrowed from transportation, where payload refers to the part of the load that pays for transportation.
+
