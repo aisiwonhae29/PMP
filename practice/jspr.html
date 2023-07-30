@@ -1,0 +1,24 @@
+
+<div id="test">
+    
+</div>
+
+<script>
+var utcnow = new Date().getTime();
+var KoreaTimeDiff = 1000*60*60*9;
+var today = new Date(utcnow + KoreaTimeDiff);
+
+console.log(today);
+console.log(new Date());
+</script>  
+
+/* 날짜 조회추가 + 07/28 utc > kor timezone 변경*/
+var utcnow = new Date().getTime();
+var KoreaTimeDiff = 1000*60*60*9;
+var today = new Date(utcnow + KoreaTimeDiff);
+var year = today.getFullYear();
+var month = today.getMonth();
+var day = today.getDate();
+document.getElementById('start_date').valueAsDate = new Date(year + '-' + month + '-' + day);
+document.getElementById('end_date').valueAsDate = new Date(utcnow + KoreaTimeDiff);
+/*  */
