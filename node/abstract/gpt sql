@@ -1,0 +1,17 @@
+gpt sql
+
+WITH RECURSIVE dates AS (
+  SELECT DATE '2023-01-01' AS '2023-06'
+  UNION ALL
+  SELECT '2023-06' + INTERVAL '1 month'
+  FROM dates
+  WHERE '2023-06' < DATE '2023-10-01' -- Change the end date as needed
+),
+all_dates AS (
+  SELECT TO_CHAR('2023-06', 'YYYY-MM') AS year_month
+  FROM dates
+)
+SELECT all_dates.year_month, my_data_table.data_value
+FROM all_dates
+LEFT JOIN my_data_table ON all_dates.year_month = TO_CHAR(my_data_table.date_column, 'YYYY-MM')
+WHERE all_dates.year_month IN ('2023-01', '2023-02', '2023-03');

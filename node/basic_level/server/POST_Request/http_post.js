@@ -1,4 +1,4 @@
-const http = require('http');
+const https = require('https');
 
 let payload = JSON.stringify({
     'name' : 'Peter',
@@ -18,7 +18,7 @@ let options = {
     headers: headers
 };
 
-let reqPost = http.request(options, (res) => {
+let reqPost = https.request(options, (res) => {
     console.log('status code : ', res.statusCode);
 
     res.on('data', (chunks) =>{

@@ -1,0 +1,7 @@
+Express
+
+Application
+
+- app.set(name, value);
+
+- app.use([path,] callback[, callback...])

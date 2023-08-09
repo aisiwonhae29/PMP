@@ -1,22 +1,9 @@
-const http = require('http');
+var http = require('http');
+var url = http('url');
 
-const options = {
-    hostname: 'webcode.me',
-    port : 80,
-    path: '/',
-    method: 'GET'
-};
+http.createServer((req, res) => {
+    let q = url.parse(req.url, true).query;
 
-const req = http.request(options, (res) =>{
-    console.log(`statusCode : ${res.statusCode}` );
-
-    res.on('data', (D) =>{
-        process.stdout.write(D);
-    });
-});
-
-req.on('error', (err) =>{
-    console.error(err);
-});
-
-req.end();
+    res.write(req.url);
+    res.end();
+}).listen(3000);

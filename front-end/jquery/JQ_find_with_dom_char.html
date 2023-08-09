@@ -1,0 +1,17 @@
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="test">test</div>
+    <button id="button" for="hithere" onclick="activate(this.for)">button</button>
+    <script>
+        function activate(hello){
+            console.log(hello)
+            let a = $('button').attr('for')
+            $('#test').text(hello);
+            console.log(a);
+        }
+    </script>
+</body>
+</html>
