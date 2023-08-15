@@ -1,0 +1,21 @@
+# linux_docker_compose
+
+### principle
+
+- docker-compose makes the uniform of enviroment container.
+
+### step 
+
+1. **build** : build images in the dockerfiles as per your project needs
+
+2. **define** : need to define all the component services in the compose.yml file
+
+3. **run** : 
+
+### content
+
+- tool for defining and running multi-container Docker applications
+  
+- allows you to define the services, networks, volumnes required for your application in YAMl file
+  
+- elimination conflicts and organizational issues.

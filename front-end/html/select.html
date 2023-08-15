@@ -1,0 +1,22 @@
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+    <select id="test">
+        <option value="1">하하</option>
+        <option value="2">길</option>
+        <option value="3">유재석</option>
+        <option value="4">노홍철</option>
+    </select>
+    
+    
+    <button onclick="activate()">button</button>
+    <script>
+        function activate(){
+            console.log($('#test option:selected').text());
+            $('#option')
+        }
+    </script>
+</body>
+</html>
