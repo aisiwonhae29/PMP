@@ -1,0 +1,20 @@
+0. access to front
+
+request come > listen req_data > middleware~app~callback_func > 
+
+1. layout.html
+
+head
+
+- favicon
+- css : fonts, tui-grid(toast_ui), common, layout, board, main, google chart
+	* css seperated with genre ~ this makes uniform of each genre's page
+- slider, swiper, jquery
+- etc.....
+
+body
+
+- <%- %> => using this to import specify page ~ shorten with this <~>
+- div[class=wrap openNav] 	sect.1 <popup> 		sect.2 <header_side>
+- div[class=layout]		sect.1 <header_top>	
+- div[id=container] 		sect
