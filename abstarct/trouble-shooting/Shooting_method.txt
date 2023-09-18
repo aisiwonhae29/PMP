@@ -1,0 +1,5 @@
+# trouble_shooting_method
+
+- downgrade version
+- service ; enabled / disabled
+- 

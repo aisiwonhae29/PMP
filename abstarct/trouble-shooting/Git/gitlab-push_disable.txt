@@ -1,0 +1,7 @@
+# Condition
+
+- Only in my pc cant push into git-lab
+
+# Solution
+
+- 제아판> 사용자 계정 > windows 자격증명 - refresh Git - session data(delete and re-login)

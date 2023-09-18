@@ -1,0 +1,8 @@
+# Condition
+
+- node cant link with ocpp server with constructed with java.
+
+
+# Solution
+
+- downgrade node version
