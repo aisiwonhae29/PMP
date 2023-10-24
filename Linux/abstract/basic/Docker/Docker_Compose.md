@@ -250,6 +250,22 @@ volumes:
 
 </details>
 
+<details><summary> Biorp - node.js - API </summary><br>
+
+```
+version: '3'
+services:
+  api:
+    image: node:16
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "3000:3000"
+    command: npm start
+```
+
+</details>
 
 
 </details>
