@@ -3,4 +3,4 @@ function a (a="123", b="456"){
     console.log(b)
 }
 
-a(a='11s')
+a()

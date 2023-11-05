@@ -3,12 +3,12 @@ const helmet = require('helmet');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(helmet())
+app.use(helmet());
 
-app.get("/", (req, res)=>{
-    res.json('ffufuufuufuu')
+app.get('/', (req,res)=>{
+    res.json("hello, World!")
 })
 
-app.listen(PORT,()=>{
-    console.log('Starting Express server on ~~')
+app.listen(PORT, ()=>{
+    console.log('hello, worlds')
 })

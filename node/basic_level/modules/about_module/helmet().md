@@ -16,9 +16,9 @@ because of Express applications do not come with security HTTP headers out of th
 
 **contentSecurityPolicy**
 
-helps you mitigate several attacks. csp allows you to speify what sources of content a web page is allowed to load and execute.
+helps you mitigate several attacks. csp allows you to speify what sources of content a web page is allowed to load and execute. known as CSP. 
 
-known as CSP. 
+
 
 <details><summary> usage </summary>
 
@@ -32,3 +32,6 @@ helmet.contentSecurityPolicy({
 })
 ```
 </details>
+
+**Referrer-Policy**
+
