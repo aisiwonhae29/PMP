@@ -17,6 +17,7 @@
 - windows linux make 
 - auto power on;for black out
 - aws
+- addEventlistener (e.g.. DOMContentLoaded)
 
 ### book
 
