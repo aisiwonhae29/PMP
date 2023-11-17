@@ -2,5 +2,9 @@
 let fs = require('fs');
 
 fs.readFile('a04-eval.js', function (err, data){
-    resizeBy.writeHead(200, )
+    if(err){
+        console.err(err);
+    }
+
+    console.log(data.toString())
 })

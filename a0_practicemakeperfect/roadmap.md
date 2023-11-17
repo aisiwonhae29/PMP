@@ -2,13 +2,16 @@
 
 ### target
 
+- regex
+- async/await
 - uncle's demo program
+- voice about
+- websocket
 - design pattern
 - algorithm
 - array
 - data structures
 - security
-- verdaccio usage
 - graphQL
 - mocha;node module 
 - take apart app.js code to find how logic work; every code
@@ -17,6 +20,7 @@
 - windows linux make 
 - auto power on;for black out
 - aws
+- verdaccio usage
 - addEventlistener (e.g.. DOMContentLoaded)
 
 ### book
