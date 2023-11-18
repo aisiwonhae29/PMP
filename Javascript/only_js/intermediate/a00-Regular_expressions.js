@@ -50,6 +50,17 @@ console.log(/(a+)-(b+)\2/i.test('aaaaaa-bb'));
    ex) str.split(/\w/)
 */
 
+/* # Chapter 5. Character class: [...]. [^...]
+
+    [],  [abc],  [A-Z]
+    [^], [^abc], [^A-Z]
+    @ in [A-Z] case, each character's type is unicode integer type. first One must be smaller than second one.
+
+    parameters: Can be a single character, another square-bracket-enclosed character class, a character class escape, a Unicode character class escape, or string sing the \q sintax
+
+    @ 'v' mode only 
+      [operand1&&operand2] [operand1--operand2] [\q{substring}]
+*/ 
 
 // case 1: /(go)+/ig  > means check 'go' patterned word not only first case of word.
 
