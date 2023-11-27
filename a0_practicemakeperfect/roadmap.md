@@ -2,23 +2,27 @@
 
 ### target
 
+- uncle's demo program
+- sdk
+- data buffer: about pdf
+- esm
 - regex
 - async/await
-- uncle's demo program
 - voice about
 - websocket
 - design pattern
 - algorithm
 - array
-- data structures
+- sort
+- data structures: Arrays, Linked List, Stack, Queue, Hash table, Graph, Tree, Heap
 - security
 - graphQL
 - mocha;node module 
-- take apart app.js code to find how logic work; every code
+- take apart app.js code to find how logic work: analytic about app.js file code
 - windows flatform link with linux db; one API server to link server respectively
-- back up;just know about back up 
+- back up: just know about back up 
 - windows linux make 
-- auto power on;for black out
+- auto power on: for black out
 - aws
 - verdaccio usage
 - addEventlistener (e.g.. DOMContentLoaded)

@@ -55,12 +55,28 @@ console.log(/(a+)-(b+)\2/i.test('aaaaaa-bb'));
     [],  [abc],  [A-Z]
     [^], [^abc], [^A-Z]
     @ in [A-Z] case, each character's type is unicode integer type. first One must be smaller than second one.
+    @ [a-zA-Z0-9] indicates all characters
 
     parameters: Can be a single character, another square-bracket-enclosed character class, a character class escape, a Unicode character class escape, or string sing the \q sintax
 
     @ 'v' mode only 
       [operand1&&operand2] [operand1--operand2] [\q{substring}]
 */ 
+
+/* @@ Remarks
+
+    theme 1 [exec function finds word by word]
+      ex) a.exec(test) > a.exec(test) > in here if any matches with patterns skipped with words
+
+    theme 2 [Unicode character class escape]
+      ex) \p{...}, \P{...}
+
+    theme 3 Unicode 
+      Content: Unicode is Hexadecimal 
+      Usage: '\u41'
+      ex) {30:0} {39:9} 
+          {41:A} {5A:Z} 
+*/
 
 // case 1: /(go)+/ig  > means check 'go' patterned word not only first case of word.
 
