@@ -38,8 +38,10 @@ const dataBuffer = fs.readFileSync(pdfFilePath);
 // Parse the PDF content
 PDFParser(dataBuffer).then(data => {
   // Access the extracted text content
-  console.log(data.text);
-  dt = data;
+  data;
+  fs.writeFile('exe.txt', data.text, (err)=>[
+    
+  ])
 }).catch(err => {
   console.error('Error parsing PDF:', err);
 });

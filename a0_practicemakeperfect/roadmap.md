@@ -1,23 +1,25 @@
 # Roadmap
 
 ### target
-
+- android studio build firebase msg logic
 - uncle's demo program
-- sdk
-- data buffer: about pdf
-- esm
+- sdk: invoke something
+- data buffer: about pdf & something like file data logic.
 - regex
 - async/await
+- 
+- esm: about node module. (import & require)
 - voice about
 - websocket
 - design pattern
-- algorithm
-- array
-- sort
+- algorithm: sort like algorithm
+- array: 
 - data structures: Arrays, Linked List, Stack, Queue, Hash table, Graph, Tree, Heap
 - security
+- truncate (sql)
+- helmet
 - graphQL
-- mocha;node module 
+- mocha: node module 
 - take apart app.js code to find how logic work: analytic about app.js file code
 - windows flatform link with linux db; one API server to link server respectively
 - back up: just know about back up 
@@ -25,7 +27,8 @@
 - auto power on: for black out
 - aws
 - verdaccio usage
-- addEventlistener (e.g.. DOMContentLoaded)
+- addEventlistener (e.g., DOMContentLoaded)
+- transplant linux system
 
 ### book
 
