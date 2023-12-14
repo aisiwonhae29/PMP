@@ -16,6 +16,22 @@
 9)  Firebase Hosting: Enables web hosting of static and dynamic content with SSL support.
 10) Firebase Performance Monitoring: Monitors app performance and provides insights to optimize the app's speed and responsiveness.
 
+<details><summary style="color:#62C1DE; font-size: 1.25rem;">Understand about firebase project</summary>
+
+### hierarchy of Firebase projects
+
+<div style="width:500px"> <img src="https://firebase.google.com/static/docs/projects/images/firebase-projects-hierarchy_projects-apps-resources.png"></div>
+
+- Firebase project is like a container for all your apps and any resources and services provisioned for the project
+
+- All Firebase Apps registered to the same Firebase project share all the same resources and services. Same back-end, auth, realtime database, colud firestore, cloud sotrage, cloud function.
+
+- can interact with google cloud because firebase's base is google cloud.
+
+- Firebase project identifies with 3 things, 1. project name 2. project number 3. project id
+</details>
+
+
 ### FCM: Firebase Cloud Messaging
 
 - about FCM 
@@ -40,3 +56,13 @@ key feature of FCM
 2) app & project tier build.gradle file type about firebase.
 3) find cloude message and create message.
 4) get_token from js & android project, copy key to homepage and send.
+
+### Main object in firebase
+
+- SDK integration the admin with client. For this, we have to see
+
+1) Realtime Database
+2) FCM
+3) Authentication
+4) Remote Config
+5) Cloud Storage

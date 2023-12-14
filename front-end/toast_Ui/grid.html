@@ -1,0 +1,31 @@
+<html>
+<head>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://uicdn.toast.com/grid/latest/tui-grid.css">
+    <script src="https://uicdn.toast.com/grid/latest/tui-grid.js"></script>
+
+</head>
+<body>
+    <div id="grid">test</div>
+    
+    <script>
+        let grid = new tui.Grid({
+            el: document.getElementById('grid'),
+            scrollX: false,
+            scrollY: true,
+            minBodyHeight: 400,
+            bodyHeight: 400,
+            rowHeaders:[
+                { type: 'checkbox', width: 50, align: 'center' }
+            ],
+            columns: [
+                { header: 'Profile ID', name: 'charge_profile_id', align: 'center' },
+                { header: 'Profile ID', name: 'charge_profile_ids', align: 'center' },
+            ],
+            emptyMessage: 'No data available'
+        })
+
+    </script>
+</body>
+</html>

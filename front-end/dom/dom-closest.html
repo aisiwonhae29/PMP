@@ -1,0 +1,20 @@
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+
+        <div id="test">test</div>
+    
+    <div id="parent" data-value="darth vader">sky walker
+        <button id="luke">button</button>
+    </div>
+    <script>
+        // closest indicates about binding upper class dom data
+        $('#luke').on('click', function(){
+            console.log($(this.closest('div')).data('value'));
+        })
+    </script>
+</body>
+
+</html>

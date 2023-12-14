@@ -7,7 +7,6 @@
 - data buffer: about pdf & something like file data logic.
 - regex
 - async/await
-- 
 - esm: about node module. (import & require)
 - voice about
 - websocket
