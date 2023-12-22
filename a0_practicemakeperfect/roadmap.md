@@ -7,6 +7,8 @@
 - data buffer: about pdf & something like file data logic.
 - regex
 - async/await
+- stream: about data transfer technique
+- pipe: in stream usage tool?
 - esm: about node module. (import & require)
 - voice about
 - websocket
@@ -16,6 +18,7 @@
 - data structures: Arrays, Linked List, Stack, Queue, Hash table, Graph, Tree, Heap
 - security
 - truncate (sql)
+- architecture
 - helmet
 - graphQL
 - mocha: node module 

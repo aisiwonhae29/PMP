@@ -9,6 +9,9 @@ let a = 1; a
 let obj1 = {a: 123, b: '321'};
 let obj2 = {a: 124, b: '421'};
 
+let ccc = `let obj1 = {a: 123, b: '321'};
+let obj2 = {a: 124, b: '421'};`
+
 // # Chapter 3.  Live Code Coverage: realtime code inspector.
 
 // '123'.go(); > error msg ....
@@ -16,7 +19,7 @@ let obj2 = {a: 124, b: '421'};
 // # Chapter 4.  SnapsNEW
 
 {{
-    console.log(12311231232)  
+    console.log(ccc)
 }}
 // # Chapter 5.  Value Explorer
 // # Chapter 6.  Time Machine

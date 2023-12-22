@@ -66,3 +66,13 @@ key feature of FCM
 3) Authentication
 4) Remote Config
 5) Cloud Storage
+
+### FCM How it work
+
+1. trusted environment such as Cloud Functions for Firebase or an app server on which to build, target, and send message
+   
+2. An Apple, Android, or web (JavaScript) client app that receives messages v
+3. 
+4. ia the corresponding platform-specific transport service
+
+we can send msg via the 'Firebase Admin SDK' or the 'FCM server protocol'.
