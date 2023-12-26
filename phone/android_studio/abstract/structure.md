@@ -16,6 +16,8 @@
 
 ### how to build?
 
+Part .1 transplant firebase into android system
+
 1. make new project with empty activity
 2. create firebase console project (set android package name)
 3. download google-service.json (in the ./app path)
@@ -35,8 +37,9 @@
         id("com.google.gms.google-services")
     }
     ...
-    dependencies {
+    dependencies { // this part handle firebase SDK
         implementation(platform("com.google.firebase:firebase-bom:32.7.0""))
+        implementation("com.google.firebase:firebase-analytics")
         ...
     }
    ```

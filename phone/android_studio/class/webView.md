@@ -4,6 +4,8 @@
 
 - used to display web pages or HTML content within an Android app. (embed web browser inside your app)
 
+- It's part of the 'android.webkit' package and allows you to embed web pages, load HTML content, display web resources ...
+
 ### function indicates
 
 - webView.setWebViewClient(new WebViewClient());  // 새 창 띄우기 않기

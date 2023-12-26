@@ -19,6 +19,7 @@
 - security
 - truncate (sql)
 - architecture
+- dsl:Domain-Specific Language - refers to a programming lanuguage or syntax tailored to a specific domain or problem space
 - helmet
 - graphQL
 - mocha: node module 
