@@ -3,7 +3,24 @@
 ├─gradle            
 ├─.idea             
 ├─.settings         
-├─app               
+├─app               ┬─build
+                    ├─libs
+                    ├─src   ┬─androidTest
+                            ├─main          ┬─java
+                                            ├─res   ┬─drawable: all your app's images will be stored in this folder
+                                                    ├─layout: contains the UI layout files for your activities.
+                                                    ├─menu: contains XMl files describing any menus in your app
+                                                    ├─mipmap: contains the launcher icons for your app
+                                                    ├─navigation: contains the navigation graph, which tells Android Studio how to navigate between different of your application.
+                                                    ├─values: contains resources, such as strings and colors, used in your app
+                                                    ├─
+                                                    ├─
+                                                    ├─
+                                                    ├─
+                                                    ├─
+                                                    ├─
+                                                    ├─
+                                                    ├─
 ├─gradle            
 ├─.project          
 ├─build gradle      

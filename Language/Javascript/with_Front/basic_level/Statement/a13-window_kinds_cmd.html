@@ -1,0 +1,29 @@
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+    <h2>window kinds Command</h2><hr><br>
+    <div id="test"></div>
+    <div><h4>history back</h4></div> <div><button onclick="activate1()">button1</button></div>
+    <div><h4>history forward</h4></div><div><button onclick="activate2()">button2</button></div>
+    <div><h4>history go</h4></div><div><button onclick="activate3()">button3</button></div>
+    <div><h4>history length</h4></div><div><button onclick="activate4()">button3</button></div>
+    <script>
+        function activate1(){
+            window.history.back();
+        }
+        function activate2(){
+            window.history.forward();
+        }
+        function activate3(){
+            window.history.go(-2);
+        }
+        function activate4(){
+            alert(window.history.length)
+        }
+        
+
+    </script>
+</body>
+</html>
