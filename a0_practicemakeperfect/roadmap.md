@@ -1,8 +1,10 @@
 # Roadmap
 
 ### target
+- vscode entry point(with pkg, the exe file formatter)
 - android studio build firebase msg logic
 - uncle's demo program
+- english program in android studio. based on some file english word store, 
 - sdk: invoke something
 - data buffer: about pdf & something like file data logic.
 - regex
@@ -13,6 +15,7 @@
 - voice about
 - websocket
 - design pattern
+- jenkins system: makes flow of jenkins with github.
 - algorithm: sort like algorithm
 - array: 
 - data structures: Arrays, Linked List, Stack, Queue, Hash table, Graph, Tree, Heap
@@ -20,6 +23,8 @@
 - truncate (sql)
 - architecture
 - dsl:Domain-Specific Language - refers to a programming lanuguage or syntax tailored to a specific domain or problem space
+- passport
+- alb/elb
 - helmet
 - graphQL
 - mocha: node module 
@@ -32,6 +37,8 @@
 - verdaccio usage
 - addEventlistener (e.g., DOMContentLoaded)
 - transplant linux system
+- uglify-js: minify and obfuscate your code and improve its load time
+- presto: sql programming... so hard to reach here...
 
 ### book
 
