@@ -6,7 +6,14 @@
 
 - It's part of the 'android.webkit' package and allows you to embed web pages, load HTML content, display web resources ...
 
+<details><summary>webview flow graph</summary>
+
+<img src="../zz_static/web-view_client_chrome.png">
+
+</details>
+
 ### function indicates
+<details><summary>content</summary>
 
 - webView.setWebViewClient(new WebViewClient());  // 새 창 띄우기 않기
 
@@ -39,3 +46,11 @@
 - webView.getSettings().setMixedContentMode(WebSettings.MIXED_CONTENT_ALWAYS_ALLOW);
 
 - webView = (WebView) findViewById(R.id.mainWebView);
+</details>
+
+### Function 
+
+- webView.loadUrl('https://youtube.com'): loads the specified url in the `webView`
+- getSettings().setJavaScriptEnabled(true): enables Javascript execution
+- setWebViewClient(WebViewClient client): Sets a `WebViewClient` instance to handle various events during page loading and navigation
+- 

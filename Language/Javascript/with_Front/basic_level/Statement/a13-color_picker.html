@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src=" https://cdn.jsdelivr.net/npm/jqueryui@1.11.1/jquery-ui.min.js "></script>
+        <link href=" https://cdn.jsdelivr.net/npm/jqueryui@1.11.1/jquery-ui.min.css " rel="stylesheet">
+    </div>
+</head>
+
+<body>
+    <h2>title: Pick from color</h2>
+    <hr><br>
+
+    <div id="colorDisplay"></div>
+    <div id="colorPicker">
+        <div>Red: <div id="redSlider"></div>
+        </div>
+        <div>Green: <div id="greenSlider"></div>
+        </div>
+        <div>Blue: <div id="blueSlider"></div>
+        </div>
+        <div>Alpha: <div id="alphaSlider"></div>
+        </div>
+    </div>
+    <hr>
+    <div style="font-weight: bold;"><span>Content: </span>color</div><br></div>
+    <div id="rgba_box" style="height: 100px; width: 100px;"></div>
+    <input type="text" placeholder="rgba" id="rgba">
+    <button onclick="rgba()">button</button>
+
+    <script>
+        function rgba() {
+            let rgba_el = $('#rgba').val().match(/(\d+(\.\d+)?)/g).map(Number);
+            $('#rgba_box').css('background-color', `rgba(${rgba_el[0]},${rgba_el[1]},${rgba_el[2]},${rgba_el[3]})`)
+        }
+        $(document).ready(function () {
+            $('#redSlider, #greenSlider, #blueSlider, #alphaSlider').slider({
+                range: 'min',
+                max: 255,
+                value: 0,
+                slide: updateColor,
+                change: updateColor
+            });
+
+            function updateColor() {
+                const red = $('#redSlider').slider('value');
+                    const green = $('#greenSlider').slider('value');
+                const blue = $('#blueSlider').slider('value');
+                const alpha = $('#alphaSlider').slider('value') / 255;
+
+                const rgbaColor = `rgba(${red}, ${green}, ${blue}, ${alpha})`;
+                $('#colorDisplay').css('background-color', rgbaColor);
+                $('#colorDisplay').text(`RGBA Color: ${rgbaColor}`);
+            }
+        });
+
+    </script>
+</body>
+
+</html>

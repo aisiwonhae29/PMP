@@ -1,7 +1,8 @@
 # Promise
 
-### what is promise?
+### about
 
-- Promise are the foundation of asynchronous programming in modern JavaScript.
-  
-- With out promise the caller called not exactly finished own's operation. but promise control
+- It is an object representing the eventual completion or failure of an asynchronous operation. 
+
+- Essentially, a promise is a 'returned object' to which you attach callbacks, instead of 'passing callbacks into a function'.
+

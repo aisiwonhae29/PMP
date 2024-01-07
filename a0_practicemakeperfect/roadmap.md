@@ -7,19 +7,19 @@
 - vscode entry point(with pkg, the exe file formatter)
 - android studio build firebase msg logic
 - uncle's demo program
-- english program in android studio. based on some file english word store, 
-- sdk: invoke something
-- data buffer: about pdf & something like file data logic.
 - regex
+- english program in android studio. based on some file english word store, 
+- sdk: invoke something (make custom sdk)
+- data buffer: about pdf & something like file data logic.
 - stream: about data transfer technique
 - pipe: in stream usage tool?
 - esm: about node module. (import & require)
-- voice about
+- voice about(get system voice authorization)
 - websocket
 - design pattern
 - jenkins system: makes flow of jenkins with github. CI/CD
 - algorithm: sort like algorithm
-- array: 
+- array: array function & array type (ex: queue, map ...)
 - data structures: Arrays, Linked List, Stack, Queue, Hash table, Graph, Tree, Heap
 - security
 - truncate (sql)
@@ -43,6 +43,13 @@
 - transplant linux system
 - uglify-js: minify and obfuscate your code and improve its load time
 - presto: sql programming... so hard to reach here...
+- cors
+- secure info (attacks, prevent, auth,... this maybe very big project)
+- clone coding start(naver, kakao) > appearance will be roughly but working logic precisely or better.
+
+### Todo
+
+- Ahead-of-Time (AOT) and Just-in-Time (JIT) Compilation
 
 ### book
 
