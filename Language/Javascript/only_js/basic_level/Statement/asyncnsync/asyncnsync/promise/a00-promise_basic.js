@@ -14,3 +14,10 @@ function a(){
         
     }
 }
+
+/**
+ * # deeply nested Promise poped first.
+ * 
+ * (promise D, (promise C, (promise B, (promise A)))) > (promise D, (promise C, (promise B)))
+ * 
+ */
