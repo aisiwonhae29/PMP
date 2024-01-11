@@ -12,7 +12,7 @@
 
 - compiles code into machine code during runtime, just before it is executed.
 
-- ofen used in dynamically-typed languages like JavaScript, Java, and Python.
+- often used in dynamically-typed languages like JavaScript, Java, and Python.
 
 - They take the advantage of runtime information to optimize the code for the specific environment it's running in
 

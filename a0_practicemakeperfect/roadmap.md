@@ -2,6 +2,7 @@
 
 ### target
 - async/await
+- req&res: usage in framework. 
 - fs module
 - electron: about & how it works?
 - vscode entry point(with pkg, the exe file formatter)
@@ -11,7 +12,7 @@
 - english program in android studio. based on some file english word store, 
 - sdk: invoke something (make custom sdk)
 - data buffer: about pdf & something like file data logic.
-- stream: about data transfer technique
+- stream: about data transfer technique (i/o)
 - pipe: in stream usage tool?
 - esm: about node module. (import & require)
 - voice about(get system voice authorization)

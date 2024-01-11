@@ -6,8 +6,8 @@ https://www.ibm.com/topics/three-tier-architecture#:~:text=Three%2Dtier%20archit
 
 - Presentation tier 
 
- user interface and communiation layer of the application
- interaacts with the application
+ user interface and communication layer of the application
+ interact with the application
  
 - Application tier
 
@@ -20,10 +20,10 @@ https://www.ibm.com/topics/three-tier-architecture#:~:text=Three%2Dtier%20archit
 
 2. Benefits of There-tier architecture
 
-- Faster development : each tier can be deveoped simultaneously by different teams
+- Faster development: each tier can be developed simultaneously by different teams
 
-- Improved scalability : independently scaled each of them
+- Improved scalability: independently scaled each of them
 
-- Improved reliability : when outage less impact to others
+- Improved reliability: when an outage has less impact on others
 
-- Improved security : presentation tier and data tier can't communicate
+- Improved security: presentation tier and data tier can't communicate
