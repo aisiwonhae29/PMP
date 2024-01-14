@@ -1,7 +1,6 @@
 # Roadmap
 
 ### target
-- async/await
 - req&res: usage in framework. 
 - fs module
 - electron: about & how it works?
@@ -72,6 +71,8 @@ Design Patterns
 
 
 <details><summary style="color:gold; font-size:1.25rem;">LEGACY</summary>
+
+- async/await
 
 <details><summary></summary>
 

@@ -96,4 +96,21 @@ function test4(){
 
 }
 
-test4()
+// # case 5: nested promise
+// ! nested Promise affect to outer promise
+
+function test5(){
+    let promise = new Promise((resolveOuter, rejectOuter)=>{
+        resolveOuter(
+            new Promise ((resolveInner)=>{
+                setTimeout(()=>{
+                    resolveInner('inner');
+                },1000)
+            })
+        )
+    })
+    promise.then((result)=>{
+        console.log(result);
+    })
+}
+
