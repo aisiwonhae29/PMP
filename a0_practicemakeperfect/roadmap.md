@@ -1,13 +1,14 @@
 # Roadmap
 
 ### target
-- req&res: usage in framework. 
 - fs module
 - electron: about & how it works?
 - vscode entry point(with pkg, the exe file formatter)
 - android studio build firebase msg logic
 - uncle's demo program
 - regex
+- queueMicrotask()
+- advanced await info. >https://developer.mozilla.org/en-US/docs/Web/API/queueMicrotask
 - english program in android studio. based on some file english word store, 
 - sdk: invoke something (make custom sdk)
 - data buffer: about pdf & something like file data logic.
@@ -73,6 +74,7 @@ Design Patterns
 <details><summary style="color:gold; font-size:1.25rem;">LEGACY</summary>
 
 - async/await
+- req&res: usage in framework. 
 
 <details><summary></summary>
 
