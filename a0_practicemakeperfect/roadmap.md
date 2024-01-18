@@ -1,9 +1,9 @@
 # Roadmap
 
 ### target
-- fs module
 - electron: about & how it works?
 - vscode entry point(with pkg, the exe file formatter)
+- small ico control module
 - android studio build firebase msg logic
 - uncle's demo program
 - regex
@@ -25,6 +25,8 @@
 - security
 - truncate (sql)
 - architecture
+- mdn javascript course
+- package dependency(all steps and control number of project if it can)
 - dsl:Domain-Specific Language - refers to a programming lanuguage or syntax tailored to a specific domain or problem space
 - pm2: single thread management program
 - passport
@@ -75,6 +77,7 @@ Design Patterns
 
 - async/await
 - req&res: usage in framework. 
+- fs module
 
 <details><summary></summary>
 
