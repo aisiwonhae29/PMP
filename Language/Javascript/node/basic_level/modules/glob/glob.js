@@ -1,16 +1,29 @@
 // glob - file globbing - matching file patterns
 
-// case 1:
+// case 1: glob async test
+
+// const {
+//     glob,
+//     globSync,
+//     globStream,
+//     globStreamSync,
+//     Glob
+// } = require("glob");
 
 let glob = require('glob');
+async function a(){
+    await glob('el/**.txt', function(err, files){
+        if (err){
+            console.error(err);
+            return;
+        }
+    
+        console.log(files);
+    })
+}
 
-glob('*.js', function (err, files){
-    if (err) {
-        console.log('error: ' , err);
-        return;
-    }
-    console.log(files);
-    files.forEach(function (file) {
-        console.log(file);
-    })    
-})
+// case 2: glob sync
+console.log(glob.sync('el/**.txt'))
+
+
+console.log(123)

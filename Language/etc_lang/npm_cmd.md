@@ -18,6 +18,7 @@
 3. npm update <package>: updates a package to its latest version
 4. npm outdated: shows a list of outdated packages
 5. npm prun: removes extraneous packages
+6. npm i -D: install module with devdependency env.
 
 \# Running Scripts
 
@@ -38,3 +39,13 @@
 \# help
 
 1. npm help
+
+
+### module related
+
+1. npm 
+
+
+2. npx 
+npx tailwindcss init
+

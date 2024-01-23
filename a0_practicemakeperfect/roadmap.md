@@ -1,11 +1,26 @@
 # Roadmap
 
-### target
+<details><summary style="color: rgb(51, 204, 201); font-size:1.25rem">current working</summary>
+
+- url working on address bar
 - electron: about & how it works?
 - vscode entry point(with pkg, the exe file formatter)
-- small ico control module
-- android studio build firebase msg logic
+  
+<details><summary>uncles's demo program</summary>
+
+- link with Django and c program
+
+</details>
+
+</details>
+
+### target
+
+<details><summary> folding </summary>
+
 - uncle's demo program
+- android studio build firebase msg logic
+- box-character input program
 - regex
 - queueMicrotask()
 - advanced await info. >https://developer.mozilla.org/en-US/docs/Web/API/queueMicrotask
@@ -18,11 +33,65 @@
 - voice about(get system voice authorization)
 - websocket
 - design pattern
+- DB
+  - POSIX Basics stdin, stdout, stderr, pipes
+  - PostgreSQL
+  - MOngoDB
+  - InfluxDB
+  - Firebase
+  - cassandra
+  - Redis
+  - ORMs
+  - ACID
+  - Transactions
+  - N+1 Problem
+  - Normalization
+  - Failure modes
+  - Profiling Perfor
+- Authentication
+  - OAuth
+  - Basic Auth
+  - Token Auth
+  - JWT
+- gRPC
+- GraphQL - Apollo
+- Caching-Client Side
+- Caching- ServerSide- Redis
+- Testing
+  - Integration Testing
+  - Unit Testing
+  - Functional Testing
+- Message Brokers
+  - RabbitMQ
+  - Kafka
+- kubernetes
+- Building for Scale
+  - Difference between theses
+    - Instrumentation
+    - Monitoring
+    - Telemetry
+  - Mitigation Strategies
+    - Graceful Degradation
+    - Throttling
+    - Backpressure
+    - loadshifting
+    - Circuit Breaker
+- Migration Strategies
+- Types of scaling
+- Server Sent Events
+- Nginx
 - jenkins system: makes flow of jenkins with github. CI/CD
 - algorithm: sort like algorithm
 - array: array function & array type (ex: queue, map ...)
 - data structures: Arrays, Linked List, Stack, Queue, Hash table, Graph, Tree, Heap
-- security
+- Architectural Patterns
+  - Monolithic Apps
+  - Microservices
+  - SOA
+  - Serverless
+  - Service Mesh
+  - Twelve Factor Apps
+  - Elasticsearch
 - truncate (sql)
 - architecture
 - mdn javascript course
@@ -46,9 +115,20 @@
 - transplant linux system
 - uglify-js: minify and obfuscate your code and improve its load time
 - presto: sql programming... so hard to reach here...
-- cors
 - secure info (attacks, prevent, auth,... this maybe very big project)
+  - MD5 and why not to use it
+  - SHA Family
+  - scrypt
+  - bcrypt
+  - Hashing Algorithms
+  - HTTPS
+  - OWASP Risks
+  - CORS
+  - SSl/T??LS
+  - Content Security Policy
 - clone coding start(naver, kakao) > appearance will be roughly but working logic precisely or better.
+
+</details>
 
 ### Todo
 
@@ -61,16 +141,6 @@ Building Microservices
 Unit Testing
 Demain Driven Design
 Design Patterns
-
-<details><summary style="color: rgb(51, 204, 201); font-size:1.25rem">current working</summary>
-
-<details><summary>uncles's demo program</summary>
-
-- link with Django and c program
-
-</details>
-
-</details>
 
 
 <details><summary style="color:gold; font-size:1.25rem;">LEGACY</summary>
