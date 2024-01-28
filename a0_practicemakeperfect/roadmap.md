@@ -2,7 +2,7 @@
 
 <details><summary style="color: rgb(51, 204, 201); font-size:1.25rem">current working</summary>
 
-- url working on address bar
+- express.
 - electron: about & how it works?
 - vscode entry point(with pkg, the exe file formatter)
   
@@ -19,7 +19,6 @@
 <details><summary> folding </summary>
 
 - uncle's demo program
-- android studio build firebase msg logic
 - box-character input program
 - regex
 - queueMicrotask()
@@ -33,6 +32,9 @@
 - voice about(get system voice authorization)
 - websocket
 - design pattern
+- android studio build firebase msg logic
+- talking with gpt in SSCapp (get info from talking each other)
+- talking with gpt in app (get info from talking each other)
 - DB
   - POSIX Basics stdin, stdout, stderr, pipes
   - PostgreSQL
