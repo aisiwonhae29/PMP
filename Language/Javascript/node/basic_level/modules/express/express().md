@@ -56,3 +56,6 @@ admin.on('mount', function(parent)){
     console.log('Admin Mounted)
     console.log(parent)
 }
+
+### node .bin.dev sequence
+
