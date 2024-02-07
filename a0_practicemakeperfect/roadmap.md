@@ -23,6 +23,7 @@
 - regex
 - queueMicrotask()
 - advanced await info. >https://developer.mozilla.org/en-US/docs/Web/API/queueMicrotask
+- lodash
 - english program in android studio. based on some file english word store, 
 - sdk: invoke something (make custom sdk)
 - data buffer: about pdf & something like file data logic.

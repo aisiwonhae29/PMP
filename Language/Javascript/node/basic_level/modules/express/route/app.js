@@ -18,10 +18,10 @@ app.set("serverMode", "dev");
 
 var server = http.createServer(app);
 
-server.listen(port);
 server.on("error", onError);
-server.on("listening", onListening(server));
+server.on("listening", () => { onListening(server); });
 
+server.listen(port);
 
 function onListening() {
 	var addr = server.address();
