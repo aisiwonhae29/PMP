@@ -1,45 +1,33 @@
-var createError = require("http-errors");
-var express = require("express");
-var path = require("path");
-var cookieParser = require("cookie-parser");
-var http = require('http');
-var debug = require("debug")('haha');
+/**
+ * * route
+ *
+ * # Routing refers to how an application's endpoints (URLs) respond to client requests.
+ */
+const { normalizePort, onError } = require("./func");
+var debug = require("debug");
+let http = require("http");
+let glob = require('glob');
+const express = require("express");
 
-let app = express();
-let server = http.createServer(app);
-server.listen(3000);
-server.on('listening', onListening);
+const app = express();
 
-// view engine setup
-app.set("views", path.join(__dirname, "views"));
-app.set("view engine", "html");
+var port = normalizePort(process.env.PORT || "8002");
 
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname, "public")));
+app.set("port", port);
+app.set("serverMode", "dev");
 
-app.use('/', function(req, res, next){
-	res.send('123');
-	res.end();
-	next()
-})
-
-app.use(function (req, res, next) {
-	next(createError(404));
+let routes = glob.sync('./junction/**/*.js')
+routes.array.forEach(el => {
+	app.use()
 });
-function normalizePort(val) {
-	var port = parseInt(val, 10);
-	if (isNaN(port)) {
-		// named pipe
-		return val;
-	}
-	if (port >= 0) {
-		// port number
-		return port;
-	}
-	return false;
-}
+
+var server = http.createServer(app);
+
+server.on("error", onError);
+server.on("listening", () => { onListening(server); });
+
+server.listen(port);
+
 function onListening() {
 	var addr = server.address();
 	var bind = typeof addr === "string" ? "pipe " + addr : "port " + addr.port;
