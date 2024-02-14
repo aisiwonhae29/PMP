@@ -11,14 +11,19 @@ const express = require("express");
 
 const app = express();
 
-var port = normalizePort(process.env.PORT || "8002");
+var port = normalizePort(process.env.PORT || "3000");
 
 app.set("port", port);
 app.set("serverMode", "dev");
 
-let routes = glob.sync('./junction/**/*.js')
-routes.array.forEach(el => {
-	app.use()
+// app.use('/', function(req, res, next){
+// 	res.send('123');
+// })
+
+let routes = glob.sync('junction/**/*.js')
+routes.forEach(el => {
+	let route = el.substr(8, el.length-11);
+	app.use(route, require('./'+el)(app));
 });
 
 var server = http.createServer(app);
