@@ -2,9 +2,10 @@
 
 <details><summary style="color: rgb(51, 204, 201); font-size:1.25rem">current working</summary>
 
-- express.
+- uncle's demo program
 - electron: about & how it works?
 - vscode entry point(with pkg, the exe file formatter)
+- ssh
   
 <details><summary>uncles's demo program</summary>
 
@@ -17,8 +18,7 @@
 ### target
 
 <details><summary> folding </summary>
-- ssh
-- uncle's demo program
+
 - box-character input program
 - regex
 - queueMicrotask()
@@ -36,6 +36,7 @@
 - android studio build firebase msg logic
 - talking with gpt in SSCapp (get info from talking each other)
 - talking with gpt in app (get info from talking each other)
+- https
 - DB
   - POSIX Basics stdin, stdout, stderr, pipes
   - PostgreSQL
@@ -151,7 +152,7 @@ Design Patterns
 - async/await
 - req&res: usage in framework. 
 - fs module
-
+- express
 <details><summary></summary>
 
 </details>
