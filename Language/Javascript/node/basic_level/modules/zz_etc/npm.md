@@ -1,5 +1,10 @@
 # npm 
 
+### requrie policy
+
+- let a      = require('a') : import the default object from 'a' module.
+- let{ b,c } = require('a') : import 'b', 'c' object from module.
+
 ### Commands
 
 - npm config: about npm config
