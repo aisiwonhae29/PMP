@@ -87,6 +87,12 @@ function test4(){
             console.log(error);
         }
     }
-    moveFile('text1.txt', 'file_read/2test2.txt')
+    moveFile('test.txt', 'file_read/test.txt')
 }
-// test4()
+
+function test5(){
+	function renameFile(source, destination){
+		fs1.renameSync(source, destination);
+	}
+	renameFile("test.txt", "file_read/test.txt");
+}test5()
