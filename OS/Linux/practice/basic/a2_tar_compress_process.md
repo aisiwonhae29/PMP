@@ -2,7 +2,7 @@
 
 ### compress
 
-#### Command : tar czvf /path/to/backup/abc.a /path/to/your/files
+#### Command : tar -[ c | z | v | f] /path/to/backup/abc.a /path/to/your/files
 
 - tar: This is the command itself, used to manipulate archives (Tape ARchives).
 - c: Stands for "create," indicating that you want to create a new archive.
@@ -12,7 +12,7 @@
 ---
 ### extract
 
-#### Command : tar xvzf backup_files.tar.gz
+#### Command : tar -[ x | v | z | f] backup_files.tar.gz
 
 - x: This stands for "extract" and tells tar to extract files from an archive.
 - v: Stands for "verbose," which displays the files being extracted as they are processed.

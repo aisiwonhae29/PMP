@@ -9,7 +9,7 @@
 ### D
 ### E
 ### F
-- pre
+- flag: variable or a value that acts as a signal for a certain condition or behavior. Flag control the program with presence or absence of a features.
 ### G
 ### H
 ### I

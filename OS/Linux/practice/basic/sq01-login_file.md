@@ -9,4 +9,3 @@
 - print all value: mysql_config_editor print --all
 - do login: mysql --login-path=test_pw
 - list: mysql_config_editor print --all
-

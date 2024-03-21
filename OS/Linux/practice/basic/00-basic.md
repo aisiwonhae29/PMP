@@ -1,5 +1,7 @@
 # basic
 
+### Command
+
 - ls - The most frequently used command in Linux to list directories
   
 ls -l: show additional information
@@ -62,3 +64,14 @@ cp -rp '' > preserve file attributes and permission, timestaps, ownership
 - top - View active processes live with their system usage
 - useradd and usermod - Add new user or change existing users data
 - passwd - Create or update passwords for existing users
+
+### variable
+
+- $(~)  : for reserved word
+- $~    : for applied word
+- ()    : for grouping command
+  
+
+### etc expression
+
+- a && b : execute command in the order from a to b
