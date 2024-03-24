@@ -30,6 +30,7 @@
 - Race Condition: A situation where the behavior of a program depends on the sequence or timing of events. Specifically, it occurs when the outcome of a program is affected by the order in which different parts of the code
                 are executed concurrently.
 ### S
+- Serial port: This is a physical communication interface that enables the transfer of data between devices, such as a computer and a modem or a printer, this transmit data serially(bits of data are sent )
 ### T
 ### U
 ### V
