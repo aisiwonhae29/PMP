@@ -95,4 +95,9 @@ function test5(){
 		fs1.renameSync(source, destination);
 	}
 	renameFile("test.txt", "file_read/test.txt");
-}test5()
+}
+
+function test6(){
+	fs.unlink('test.txt');
+}
+test6();
