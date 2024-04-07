@@ -2,7 +2,8 @@
 
 <details><summary style="color: rgb(51, 204, 201); font-size:1.25rem">current working</summary>
 
-- 
+- Network study.
+- https://www.elprocus.com/ethernet-protocol/
 - uncle's demo program
 - electron: about & how it works?
 - vscode entry point(with pkg, the exe file formatter)

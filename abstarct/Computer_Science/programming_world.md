@@ -8,6 +8,7 @@
 ### C
 ### D
 ### E
+- Entity: In the context of networking and programming, an 'entity' generally refers to a distinct and identifiable component or object that participates in a system or communication process.
 ### F
 - flag: variable or a value that acts as a signal for a certain condition or behavior. Flag control the program with presence or absence of a features.
 ### G
