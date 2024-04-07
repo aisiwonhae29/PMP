@@ -9,7 +9,7 @@
  */
 
 const fs = require("fs").promises;
-const fs1 = require("fs");
+const fs_sync = require("fs");
 
 // # case 1: fs sync/async style compare
 
@@ -24,34 +24,63 @@ function test1() {
 	}
 
 	// readFile('a.txt')
-	fs1.readFile("test1.txt", "utf-8", (err, data) => {
-		console.log(data);
-	});
+
+	function a01_01(){
+		fs_sync.readFile("test1.txt", "utf-8", (err, data) => {
+			console.log(data);
+		});
+	}
+	
+	// Read directory
+
+	function a01_02(){
+		let dirInfo = fs_sync.readdirSync('../fs');
+
+		console.log(dirInfo);
+	}
+
+	// a01_01();
+	// a01_02();
+
 }
 
 // # case 2: fs write file
 
 function test2() {
-	(async function openFile() {
-		try {
-			const csvHeaders = "hello,worlds,hi\n";
-			await fs.writeFile("test21.txt", csvHeaders, { flag: "a" });
-		} catch (error) {
-			console.error(error);
+	function t02_01(){
+		(async function openFile() {
+			try {
+				const csvHeaders = "hello,worlds,hi\n";
+				await fs.writeFile("test21.txt", csvHeaders, { flag: "a" });
+			} catch (error) {
+				console.error(error);
+			}
+		})();
+		async function add_line(el1, el2) {
+			try {
+				await fs.writeFile("test21.txt", `${el1} and ${el2} \n`, { flag: "a" });
+			} catch (error) {
+				console.error(error);
+			}
 		}
-	})();
-	async function add_line(el1, el2) {
-		try {
-			await fs.writeFile("test21.txt", `${el1} and ${el2} \n`, { flag: "a" });
-		} catch (error) {
-			console.error(error);
+		add_line("lion", "tiger");
+		add_line("monkey", "dog");
+		add_line("eagle", "hawk");
+	};
+	function t02_02(){
+		if(!fs_sync.existsSync('./test.txt')){
+			try{
+				fs_sync.writeFileSync("./test.txt", '213');
+			}catch(err) {
+				console.error(err);
+			}
+			// append data on file
 		}
-	}
-	add_line("lion", "tiger");
-	add_line("monkey", "dog");
-	add_line("eagle", "hawk");
+		fs_sync.appendFileSync('./test.txt', 'hello worlds, i\'m very nice guy..! \n');
+	};
+	t02_02();
 }
-// test2()
+test2();
 
 // # case 3: deleteFile
 
@@ -71,10 +100,19 @@ function test3() {
 			console.error(error);
 		}
 	}
-    createFile()
-    deleteFile('test33.txt')
+    // createFile()
+    // deleteFile('test33.txt')
 }
-// test3()
+
+// Delete directory in synchronous
+
+function test3_1(){
+	fs_sync.mkdirSync('./testDir');
+	let stat = fs_sync.statSync('./testDir');
+	console.log(stat);
+	fs_sync.rmdirSync('./testDir');
+}
+
 
 // # case 4: move & rename file
 
@@ -92,7 +130,7 @@ function test4(){
 
 function test5(){
 	function renameFile(source, destination){
-		fs1.renameSync(source, destination);
+		fs_sync.renameSync(source, destination);
 	}
 	renameFile("test.txt", "file_read/test.txt");
 }
@@ -100,4 +138,25 @@ function test5(){
 function test6(){
 	fs.unlink('test.txt');
 }
-test6();
+
+// # case 5: check out the file about exists or not
+
+function t07_fileChk(){
+	let valid = fs_sync.existsSync('./test21.txt');
+	console.log(valid);
+};
+
+//# case 6: check out the file's status
+
+function t08_chkFileStatus(){
+	function t08_01(){	// lstatSync(path);
+		let status = fs_sync.lstatSync('./test21.txt');
+		console.log(status);
+	};
+	function t08_02(){
+		fs_sync.stat('./test21.txt', (err, stats) =>{
+			console.log(stats);
+		});
+	}
+	t08_02();
+};t08_chkFileStatus();
