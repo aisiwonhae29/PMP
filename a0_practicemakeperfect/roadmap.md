@@ -108,6 +108,7 @@
 - alb/elb
 - helmet
 - graphQL
+- log
 - mocha: node module 
 - take apart app.js code to find how logic work: analytic about app.js file code
 - windows flatform link with linux db; one API server to link server respectively
