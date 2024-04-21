@@ -16,6 +16,7 @@
 ### H
 ### I
 - Intermediate value: generated during computation process. Temporary features.
+- i686: indicates about using 32-bit set architecture (ISA)
 ### J
 ### K
 ### L
