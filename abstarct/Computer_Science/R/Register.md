@@ -14,4 +14,3 @@
 2. Addressing
 3. Instruction Execution
 4. Function Arguments and Return values
-5. 

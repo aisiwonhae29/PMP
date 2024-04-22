@@ -20,6 +20,10 @@
 
 - WASI is designed to be modular, allowing different subsets of APIs to be implemented based on the requirements of the target environment of application
 
-4. Embedding: WASI allows Wasm programs to be embedded into different host environments like web bvowsers.
+4. Embedding
+
+- WASI allows Wasm programs to be embedded into different host environments like web bvowsers.
 
 5. Language-agnostic
+
+- 
