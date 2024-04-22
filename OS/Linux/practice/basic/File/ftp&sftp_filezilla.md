@@ -2,6 +2,7 @@
 
 ### FTP
 
+- PORT: 21
 
 <details><summary>Linux command</summary>
 
@@ -37,7 +38,7 @@ ftp -n -v "$FTP_SERVER" <<END_SCRIPT
 
 SFTP is used to secure file transfers between a remote host server and a client user over a public network like the internet.
 SFTP ensures that the host and client are validated and authenticated.
-
+PORT: 22
 
 \# features
 

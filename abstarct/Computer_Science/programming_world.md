@@ -11,9 +11,11 @@
 - Entity: In the context of networking and programming, an 'entity' generally refers to a distinct and identifiable component or object that participates in a system or communication process.
 ### F
 - flag: variable or a value that acts as a signal for a certain condition or behavior. Flag control the program with presence or absence of a features.
+- failover: A method of protecting computer systems from failure, in which standby equipment automatically takes over when the main system fails.
 ### G
 ### H
 ### I
+- Intermediate value: generated during computation process. Temporary features.
 ### J
 ### K
 ### L
@@ -26,6 +28,7 @@
 ### O
 - Origin: Web content's origin is defined by the scheme (protocol), hostname (domain), and port of the url used to access it. ex) http://localhost:3000
 ### P
+- Portability: The ability of software to be transferred from one machine or system to another.
 ### Q
 ### R
 - Race Condition: A situation where the behavior of a program depends on the sequence or timing of events. Specifically, it occurs when the outcome of a program is affected by the order in which different parts of the code

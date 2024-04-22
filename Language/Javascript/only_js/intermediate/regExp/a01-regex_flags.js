@@ -19,26 +19,9 @@
 */
 
 
-/*  # Chapter 2. Regex Function*/
-
-    let C2_01_txt = 'hello world, hello korea';
-    let C2_01_regex = /hello (\w+)/
-    
-
-    /* exec */      console.log(C2_01_regex.exec(C2_01_txt))
-    /* test */      console.log(C2_01_regex.test(C2_01_txt))
-    /* match */     console.log(C2_01_txt.match(C2_01_regex))
-    /* replace */   console.log(C2_01_txt.replace(C2_01_regex, 'hi'))
-    /* split */     console.log(C2_01_txt.split(C2_01_regex))
 
 
-/* # Chapter 3. Backreference */
 
-//usage
-console.log(/(b)\2/i.test('b-bbb'));
-console.log(/(a)\7/.test('a\x07'))
-console.log(/(?:a|(b))\1c/.test('ac'))
-console.log(/(a+)-(b+)\2/i.test('aaaaaa-bb'));
 
 
 /* # Chapter 4. Character class escape 
@@ -90,4 +73,4 @@ console.log('gogogogo go-go gogo go/go gooogo'.replace(re_01))
 let re_02 = /(\w+\.)+\w+/g;
 
 console.log(("site.com my.site.com").match(re_02));
- 
+

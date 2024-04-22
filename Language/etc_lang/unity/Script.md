@@ -16,6 +16,12 @@ ex) Rigidbody2D rigid
 
 - Input key value is in 'Topbar > Edit > Project Setting > Input Manager > Axes
 
+\# transform: deal with transform
+
+- Function
+
+Rotate()      : Rotate something
+Translate()   : change the object location.
 
 ### Function
 
@@ -23,3 +29,8 @@ ex) Rigidbody2D rigid
 
 - FixedUpdate()                 : When physics updates, then use this function not Update.
   - 1. AddForce
+
+
+### Syntax
+
+- Seriallize [Seriallize] ~~ : This gives attribute.

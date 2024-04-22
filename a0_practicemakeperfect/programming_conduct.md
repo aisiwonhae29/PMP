@@ -21,4 +21,9 @@
 
 \# check point
 
-- 
+
+
+## Basic structure of IT
+
+- router(translator)
+- Cache

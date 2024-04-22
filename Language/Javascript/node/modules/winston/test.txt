@@ -1,0 +1,2 @@
+{"level":"info","message":"Info messasdage","service":"admin-service"}
+{"level":"error","message":"Error message","service":"admin-service"}

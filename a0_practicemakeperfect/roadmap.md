@@ -1,8 +1,14 @@
 # Roadmap
 
+<details><summary>Study</summary>
+
+- Study for software architecture
+
+</details>
+
 <details><summary style="color: rgb(51, 204, 201); font-size:1.25rem">current working</summary>
 
-- Network study.
+- algorithm: sort like algorithm
 - https://www.elprocus.com/ethernet-protocol/
 - uncle's demo program
 - electron: about & how it works?
@@ -87,7 +93,6 @@
 - Server Sent Events
 - Nginx
 - jenkins system: makes flow of jenkins with github. CI/CD
-- algorithm: sort like algorithm
 - array: array function & array type (ex: queue, map ...)
 - data structures: Arrays, Linked List, Stack, Queue, Hash table, Graph, Tree, Heap
 - Architectural Patterns
@@ -134,6 +139,7 @@
   - SSl/T??LS
   - Content Security Policy
 - clone coding start(naver, kakao) > appearance will be roughly but working logic precisely or better.
+- Network study.
 
 </details>
 
