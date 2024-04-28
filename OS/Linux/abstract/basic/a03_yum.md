@@ -40,4 +40,5 @@
 ### command
 
 - sudo yum localinstall: This makes yum package manager to install package from local files.
-  
+
+- sudo yum-config-manager --add-repo: This makes Linux add repository on linux rpm default directory.

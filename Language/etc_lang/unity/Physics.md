@@ -16,6 +16,12 @@ Project Setting > Physics 2D > Gravity
 
 ### script
 
+\# movement
+
 - Give strength     : obj.AddForce(inputVec)
 - Control velocity  : obj.velocity = inputVec;
 - Move position     : obj.MovePosition(rigid.position + inputVec);
+
+\# substance
+
+- OnCollisionEnter2D()  : Give event when collide something.

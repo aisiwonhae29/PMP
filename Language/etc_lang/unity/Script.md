@@ -30,6 +30,7 @@ Translate()   : change the object location.
 - FixedUpdate()                 : When physics updates, then use this function not Update.
   - 1. AddForce
 
+- Debug.Log()                   : To print a witty msg to the console
 
 ### Syntax
 

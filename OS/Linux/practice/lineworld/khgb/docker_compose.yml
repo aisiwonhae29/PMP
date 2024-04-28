@@ -1,0 +1,14 @@
+# handle mysql module to docker environment.
+
+version: '3.8'
+services:
+  db:
+    container_name: khgb_mysql_830
+    image: mysql:8.3.0
+    restart: always
+    ports:
+      - "3307:3307"
+    environment:
+      - MYSQL_ROOT_PASSWORD=1234
+    volumes:
+      - /var/lib/mysql:/var/lib/mysql
