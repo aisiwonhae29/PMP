@@ -1,19 +1,17 @@
 # AOT & JIT compilation
 
-### AOT
+### AOT: Ahead Of Time
 
-- involves converting the source code or an intermediate representation of code into machine code before the program is run.
+- AOT compilation is the process of converting a high-level programming language into native machine code before the program is executed.
+- This compilation happens ahead of time, before the program runs.
+- The resulting native code can be directly executed by the computer's processor withoud need for virtual machine or interpreter at runtime
 
-- This means that the code is compiled into executable form during the build process or before the program's execution.
+### JIT: just in time
 
-- C, C++, and some statically-typed languages exists
+- JIT compilation is the process of compiling code from a higher level language into native machine code at runtime, just before it is executed.
 
-### JIT
+### remark
 
-- compiles code into machine code during runtime, just before it is executed.
-
-- often used in dynamically-typed languages like JavaScript, Java, and Python.
-
-- They take the advantage of runtime information to optimize the code for the specific environment it's running in
-
-- This dynamic compilation allows the system to adapt to runtime donditions and optimize for performance characteristics of the underying hardware.
+- Java uses a combination of interpretation.
+- .Net core supports both JIT and AOT compilation.
+- Android Runtime (ART) introduced an AOT compilation option in addition to its traditional JIT compilation for improved performance on mobile devices.

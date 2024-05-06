@@ -10,7 +10,7 @@
 - key type is string.
 - data types : string, floating-point number, integer, boolean
 - no quotes(', ") is also takes but without quote numeral data recognize as a numaral data.
-- 
+
 
 ### frame of YAML
 
@@ -19,12 +19,12 @@ ray: "a drop of rain"
 pi: 3.14159
 xmas: true
 french-hens: 3
-calling-birds:
+calling-birds:                # Array
   - huey
   - dewey
   - louie
   - fred
-xmas-fifth-day:
+xmas-fifth-day:               # object
   calling-birds: four
   french-hens: 3
   golden-rings: 5

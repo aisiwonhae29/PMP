@@ -30,3 +30,5 @@ function test2(){
         setTimeout
     })
 };
+
+test2()

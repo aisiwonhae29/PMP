@@ -16,7 +16,7 @@
 4. Load Distribution: CDNs can handle high traffic loads by distributing requests across their network. This helps prevent server overloads and improves website performance
    during traffic spikes
 
-### How wWebsites Use CDNs
+### How Websites Use CDNs
 
 1. Resource Hosting: Websites can host static resources (like images, CSS files, JavaScript libraries) on CDNs, allowing these resources to be served faster to users
 

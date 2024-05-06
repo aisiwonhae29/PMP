@@ -1,4 +1,6 @@
-Binary data
+# Binary data
+
+### about
 
 Binary data is represts data combinations of 0, 1.
 The binary format used with ASCII or Unicode like.

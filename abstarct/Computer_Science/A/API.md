@@ -1,8 +1,6 @@
-# API
+# API: Application Programming Interface.
 
-### What is an API?
-
-- application programming interface(API)
+### about
 
 - APIs are mechanisms that enable two software components to communicate with each other using a set of definitions and protocols.
 
