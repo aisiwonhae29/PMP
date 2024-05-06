@@ -1,4 +1,4 @@
-# FTP SFTP
+# FTP & File zilla
 
 ### FTP
 
@@ -31,20 +31,6 @@ ftp -n -v "$FTP_SERVER" <<END_SCRIPT
 
 </details>
 
-
-### SFTP
-
-\# about
-
-SFTP is used to secure file transfers between a remote host server and a client user over a public network like the internet.
-SFTP ensures that the host and client are validated and authenticated.
-PORT: 22
-
-\# features
-
-1. SFTP works in a client-server architecture. Clients always initiate a request to connect and servers passively listen for client requests.
-2. The server's and client's identities are verified and the connection is encrypted before files are transferred.
-3. 
 
 ### filezilla
 

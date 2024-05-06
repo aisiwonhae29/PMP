@@ -3,12 +3,12 @@
 version: '3.8'
 services:
   db:
-    container_name: khgb_mysql_830
-    image: mysql:8.3.0
+    container_name: khgb-mysql_ver_8026
+    image: mysql:8.0.26
     restart: always
     ports:
-      - "3307:3307"
+      - "3306:3306"
     environment:
       - MYSQL_ROOT_PASSWORD=1234
     volumes:
-      - /var/lib/mysql:/var/lib/mysql
+      - /var/lib/mysql:/data1/db_home/mysql

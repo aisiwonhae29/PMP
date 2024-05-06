@@ -1,8 +1,8 @@
 # network
 
-### commands
+### netstat
 
-\# netstat
+\# cmd
 
 - option
   - -a  : Displays all sockets.(both listening and non-listening sockets).
@@ -18,3 +18,12 @@ ex)
 - netstat -anp              
 
 - telnet ip port
+
+### nmap: network mapper
+
+\# about
+
+- nmap: nmap is a versatile open-sour
+
+\# cmd
+

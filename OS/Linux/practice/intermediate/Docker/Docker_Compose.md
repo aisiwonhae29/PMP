@@ -102,10 +102,12 @@ In these section we can configuring containers in this section of the file.
   - so it means local(port:5000) send request to remote(port:8000)
 
 \# volumes
+
 - Docker containers have no means of storing data persistently, so when restart lose data. Volumes makes it to create a persistent data storage.
 - it does this by mounting a directory from the docker host into the docker container's directory.
 - ex) volumes:
           - host-dir:/test/directory
+- ( existing foler || new dir ) : ( target folder in docker container )
 
 \# networks
 

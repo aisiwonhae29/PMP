@@ -20,7 +20,7 @@
 
 4. Key Exchange
 
-- If asymettric encryption (public-key cryptography) is used, the parties exchange crpytographic keys to establish a shared secret
+- If asymetric encryption (public-key cryptography) is used, the parties exchange crpytographic keys to establish a shared secret
 - This typically involves the lient generating a pre-master key, encrypting it with the server's public key, and sending it to the server.
 
 5. Authentication
