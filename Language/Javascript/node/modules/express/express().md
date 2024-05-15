@@ -1,5 +1,15 @@
 # express()
 
+### structure
+
+1. require module
+2. configuration express
+3. session setting
+4. route setting
+5. error handler
+
+### function
+
 **express.json([options])**
 
 It parses incoming requests with JSON payloads and is based on body-parser.

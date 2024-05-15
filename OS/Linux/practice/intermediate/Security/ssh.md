@@ -1,5 +1,7 @@
 # ssh: Secure Shell
 
+<details> <summary> basic </summary>
+
 ### about
 
 >https://zah.uni-heidelberg.de/it-guide/ssh-tutorial-linux
@@ -90,3 +92,23 @@ ssh -p 3333 -L 1111:127.0.0.1:3333 root@192.168.73.5
 
 - systemctl status ssh      : ssh service check, run or not
 - vim /etc/ssh/sshd_config  : can find about sshd_config
+
+</details>
+
+<details> <summary> usage </summary>
+
+### Interact with remote machine
+
+\# code
+
+1. ssh [hostmachine] [command]
+
+ex) ssh -p 22 192.168.50.176 'hostname'
+
+
+2. ssh [hostmachine] | tee [file]
+
+- This command input whole activity in ssh process.
+ex) ssh -p 22 192.168.50.176 | tee stdout.txt
+
+</details>

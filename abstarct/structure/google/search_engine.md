@@ -29,4 +29,11 @@
   - Term Weighting
     - Adjusts the relative importance of individual terms within a query, based on how users interact with search results.\
     - This helps determine how relevant certain terms are in teh context of the query.
+- DeepRank
 
+### summary
+
+- Navboost: collect data with search result.
+- RankBrain: AI machine learning system, it train with user's search result.
+  - QBST: focuses on the most important terms within a query and related documents, make a good result for ambiguous and complex query
+  - Term Weighting: Make a decision for the relative importance each terms within a query, based on search engine's db term's are rare or often occurs and making balance.
