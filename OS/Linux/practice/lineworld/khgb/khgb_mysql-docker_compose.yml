@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  db:
+    container_name: abcd
+    image: mysql:8.3.0
+    restart: always
+    secrets:
+      - my_secret
+    ports:
+      - "3307:3307"
+    environment:
+      MYSQL_ROOT_PASSWORD: 1234
+    volumes:
+      - /var/lib/mysql:/var/lib/mysql
+secrets:
+  my_secret:
+    file: ./pw

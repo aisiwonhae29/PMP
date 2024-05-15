@@ -1,8 +1,22 @@
 /**
  * * a23: event handler
  * 
- * # Event Emitter: provides us with multiple functionalities to work with events, such as teh creation of events, management of communication channels, and emission of events, among other features.
+ * ! about
  * 
+ * - Node.js is the event-driven architecture as a core concepts, managing asynchronous operations and handling events within runtime.
+ * - The event handler strucutre and principle in Node.js are based on the Observer pattern and the Event Emitter module.
+ * 
+ * ! logic
+ * 
+ * - Create instance of EventEmitter.
+ * - Regist the eventHandler function and listen with on method
+ * - with emit function triggered registered function.
+ * 
+ * ! feature
+ * 
+ * - Asynchronous
+ * 
+ * # Event Emitter: provides us with multiple functionalities to work with events, such as teh creation of events, management of communication channels, and emission of events, among other features.
  * # basic event handling methods
  * 
  * - Event Subscription: On
@@ -21,7 +35,7 @@ function case1(){
     animal.on('dog', ()=>{
         console.log('멍멍!');
     });
-    animal.on('cat', ()=>{
+    animal.on('cat', ()=>{ 
         console.log('야옹야옹!');
     })
     animal.emit('dog');

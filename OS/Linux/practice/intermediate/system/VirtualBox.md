@@ -16,3 +16,12 @@
 | Contains all the basic hypervisor features                                   | Virtual USB3.0, 2.0 device supports. VirtualBox Remote DeskTop Protocol(VRDP) |
 | -                                                                            | Host webcam passthrough, Inter preboot eXecution (PXE) boot ROM               |
 | -                                                                            | NVMe Storage emulation, Oracle Cloud Infrastructure integration               |
+
+### cmd
+
+\# mount
+
+> quote: https://www.pragmaticlinux.com/2021/02/how-to-mount-a-shared-folder-in-virtualbox/
+
+- sudo mount -t vboxsf -o uid=$USER,gid=vboxsf [mount_name] [mount_location]    : mount on
+- sudo umount [mount_location]                                                  : mount down

@@ -38,6 +38,7 @@
 ### S
 - Serial port: This is a physical communication interface that enables the transfer of data between devices, such as a computer and a modem or a printer, this transmit data serially(bits of data are sent )
 - self contained: A datagram or packet carries all the essential information within itself to be processed and routed independently, with out relying on external factors.
+- System-wide: refers to something that affects or involves an entire system rather than just a specific part or component of that system.
 ### T
 ### U
 ### V

@@ -21,3 +21,19 @@
 - systemctl list-dependencies [unit_name]   : viewing dependencies
 - systemctl [mask | unmask] [unit_name]     : prevent a unit from being started manually or by any other unit by masking it(mask means prevent to execute)
 - systemctl daemon-reload                   : reloading systemctl configuration.
+
+### appendix
+
+\# types of systemctl units
+
+1. service
+2. socket
+3. device
+4. mount
+5. automount
+6. target
+7. snapshot
+8. timer
+9. path
+10. slice
+ex) systemctl list-units --type=mount
