@@ -17,7 +17,7 @@
 | -                                                                            | Host webcam passthrough, Inter preboot eXecution (PXE) boot ROM               |
 | -                                                                            | NVMe Storage emulation, Oracle Cloud Infrastructure integration               |
 
-### cmd
+### cmd & conf
 
 \# mount
 
@@ -25,3 +25,7 @@
 
 - sudo mount -t vboxsf -o uid=$USER,gid=vboxsf [mount_name] [mount_location]    : mount on
 - sudo umount [mount_location]                                                  : mount down
+
+\# disk
+
+- lsblk                                                                         : list all disks and prtitions

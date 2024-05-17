@@ -16,7 +16,8 @@
 - This system tabulates clicks and uses algorithms that learn from human-made quality ratings to improve the ranking of results.
 - Differntiates between phone, PC and considers location.
 - Records a click data from querioes.
-- **conclusion**: find good search algorithm.
+
+**conclusion** Find good search algorithm.
 
 \# RankBrain
 
@@ -29,7 +30,19 @@
   - Term Weighting
     - Adjusts the relative importance of individual terms within a query, based on how users interact with search results.\
     - This helps determine how relevant certain terms are in teh context of the query.
-- DeepRank
+
+**conclusion** Make proram more accurately on search result.
+
+\# DeepRank
+  
+- DeepRank is the internal name for BERT
+- By pre-training on large amount of document and adjusting with human feedback, DeepRank can fine-tune search results to be more intuitive and relevant to qualified result.
+
+**conclusion** Understand more on query
+
+\# RankEmbed
+
+- RankEmbed focuses on the task of embedding relevant features for ranking.
 
 ### summary
 
