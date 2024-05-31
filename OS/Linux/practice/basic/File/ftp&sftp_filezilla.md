@@ -1,4 +1,4 @@
-# FTP:File Transfer Protocol & File zilla
+# FTP:File Transfer Protocol
 
 > quote: https://en.wikipedia.org/wiki/File_Transfer_Protocol
 
@@ -12,6 +12,23 @@
 
 - uri prefix: ftp://
 - PORT: 21
+
+### cmd
+
+- ftp [hostname]    : Open the server.
+- open [hostname]   : Open the server.
+- get [filename]    : Download the file from server.
+- put [filename]    : Upload the file to server.
+- status
+- mkdir [dirname]
+- rename [filename]
+- delete [filename]
+- chmod [mode] [filename]
+- hash              : Toggle hash mark printing for file transefer.
+- quote [command]   : Send a raw command on remote server
+- binary            : To binary mode change
+- ascii             : To ascii mode change
+- quit
 
 ### logic
 
@@ -109,10 +126,16 @@ ftp -n -v "$FTP_SERVER" <<END_SCRIPT
 
 </details>
 
+### remark
 
-### filezilla
+\# EOF(End Of File) & END_SCRIPT
 
-\# sequence
+EOF: In shell scripting typically denotes the end marker for a here document of here document redirection.w
+
+
+# file zilla
+
+### sequence
 
 1. site Manager - click (top left first menu box)  
 2. new site Manager - click 
@@ -121,8 +144,14 @@ ftp -n -v "$FTP_SERVER" <<END_SCRIPT
 5. port box - enter 22
 6. Logon Type box - select Ask for Password
 
-### remark
+# file zilla server
 
-\# EOF(End Of File) & END_SCRIPT
+### implement
 
-EOF: In shell scripting typically denotes the end marker for a here document of here document redirection.w
+1. Download file zilla server
+2. Connect to server: Launch and connect server, address_127.0.0.1 port_14147 is default.
+3. Server configuration: General setting, FTP over TLS settings ...
+4. Create Users and Groups: Usermanagement, group management
+5. Assign shared folder
+6. Configure firewall and router
+7. Connect to your FTP server

@@ -1,0 +1,5 @@
+Aliases : a false or assumed identity.
+stateless : isn't dependent from state.(means always makes same result)
+Along with : 1) together with 2) in addition to
+Single out : focus one in a large group
+even if : despite the possibility that; no matter whether

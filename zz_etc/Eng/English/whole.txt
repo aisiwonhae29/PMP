@@ -1,0 +1,518 @@
+2307---
+reserved: kept specially for a particular purpose or person
+mandatory = compulsory
+generic: characteristic of or relating to a class or group of things; not specific
+Rudimentary: involving or limited to basic principles. / immature
+henceforth: from this time on or from that time on.
+errata:  a list of errors in a printed work discovered after printing and shown with corrections
+perceptible: able to be seen or noticed.
+perceive: become aware or conscious of (something); come to realize or understand
+roll out: officially launch or introduce a new product or service
+de facto: Actual
+not backward compatible: not compatible with lower version
+plural: denoting more than one
+criterion: a standard by which you judge, decide about, or deal with something
+underlie: be a significant cause of basis of (something) even if not necessarily manifest or manifest
+manifest: 1) clear to the eye or mind; 2) display or show (a quality or feeling) by one's acts or appearance; demonstrate
+settle: resolve or reach an agreement about(an argument or problem)
+retrieval: The process of getting something back from somewhere
+participle : a word formed from a verb(e.g., going, gone, being, been) and used as an adjective or a noun
+underlie: Be a significant cause or basis of (something), even if not necessarily manifest or obvious
+denote: be a sign of; indicate
+semantics: the branch of linguistics and logic concerned with meaning. 
+cogent : (of an argument or case) clear, logical, and convincing
+syntax: the arrangement of words and phrases to create well-formed sentences in a language
+hence: as a consequence, for the reason
+overview: a general review or summary of a subject
+encompass: surround and have or hold within
+formal: done following rules of convention or etiquette; suitable for or constituting an official or important situation or occasion
+complaint: a statement that a situation is unsatisfactory or unacceptable
+compliance: the action or fact of complying with a wish or command
+semiotics: the study of signs and symbols and their use or interpretation
+yield: 1) produce or provide 2) give way to arguments, demands 3) give way under force or pressure
+incorporate: take in or contain (something) as part of a whole; include / constitute (e.g., a company, organizations ..) as a legal corporation
+magnitude: The great size or extent of something
+precede: 1) come before(something) in time 2) go in front or ahead of 3) come before in order or position
+capable: having the ability, fitness, or quality necessary to do or achieve a specified thing
+respective: be lining or relating separately to each of two or more people or things
+eventually: in the end, especially after a long delay, dispute, or series of problems
+conscious: 1) aware of and responding to one's surroundings; awake  2) aware
+allude: suggest or call attention to indirectly; hint at
+incidentally: used when a person has something more to say or is about to add a remark unconnected to the current subject; by the way
+incidental: 1)accompanying but not a major part of something, 2)liable to happen as a consequence of, 3) an incidental detail, expense, event
+incident: 1)an event or occurrence, 2) likely to happen because of; result from, 3)(especially, light or radiation)falling on or striking something
+obligation: an act or course of action to which a person is morally or legally bound
+assure: tell someone something positively or confidently to dispel any doubts they may have
+dispel: make (a doubt, feeling, or belief) disappear
+account: 1) a report or description of an event or experience, 2) a record or statement of financial expenditure and receipts
+distress: extreme anxiety, sorrow, or pain
+inflict: cause (something painful) to be suffered by someone or something
+subdirectory: a directory below another directory in a hierarchy
+revolve: move in a circle on a central axis
+opinionated: conceitedly assertive and dogmatic in one's opinions
+premises: 1) a house or building together with its land 2) a previous statement or proposition from which another is inferred or follows as a conclusion
+provision: 1) providing or supplying something for use; 2)an amount or thing supplied or provided.
+behalf: speak or act for someone
+latency: the delay before a transfer of data begins following an instruction for its transfer
+2308---
+Aliases: 1) a false or assumed identity. 2) 
+Stateless: isn't dependent on the state. (means always makes the same result)
+Along with: 1) together with 2) in addition to 3) at the same time
+Single out: focus on one in a large group
+even if: despite the possibility that no matter whether
+Single-use: designed to be used once and then disposed of or destroyed
+deliberately: consciously and intentionally; on purpose
+Subset: a part of a larger group of related things
+end up being: describe the final or eventual outcome or result of a situation ,,,.
+abolish: put an end to (a system, practice, or institution)
+Overturn: Tip (something) over so that it is on its side or upside down
+Convention: a way in which something is usually done, especially within a particular area or activity
+Provision:n 1)the action of providing for use 2) an amount or thing supplied or provided
+          2) supply with food, drink or equipment for a journey 3) set aside an amount 
+set aside: 1)  save or keep something, 2) declare a legal decision or process to be invalid
+engage: 1) occupy, attract or involve 2) participate or become involved in
+one for all(every): means designed to benefit many people or groups at once 
+pledge: a solemn promise or undertaking
+solemn: formal and dignified
+Beforehand: before an action or event; in advance
+ancillary: providing necessary support to the primary activities or operation of an organization, institution, industry or system
+clutter: crowd(something) untidily; fill with clutter
+cluster: a group of similar things or people positioned or occurring closely together
+untidily: in a way that is not neat or well-arranged
+explicitly: In a clear manner, leaving no room for confusion or doubt.
+Assertion: A confident and forceful statement or fact or belief.
+Pessimistic: Tending to see the worst aspect of things or believing that the worst will happen.
+Sweeping: Extending or performed in a long continuous curve.
+practically: almost; virtually
+directive: An official or authoritative instruction
+come across: 1) meet someone by chance; 2) appear or sound in a specified way; give a specified impression
+English is not a strict language, and it is changeable
+intact: not damaged or impaired in any way; complete
+Pending: awaiting decision or settlement
+indeed: 1) used to emphasize a statement or response confirming something already suggested 2) used to introduce a further and more muscular or more surprising point
+set aside: save or keep something, typically money or time
+liability: 1) the state of being responsible for something, e.g.) law
+recurrence: the fact of occurring again
+arbitrarily: based on random choice or personal whim rather than any reason or system.
+Precedence: The condition of being considered more important than someone or something else; priority in importance, order, or rank.
+recur: Occur again periodically or repeatedly
+incorporate: take in or contain as part of a whole; include
+valid: (of an argument or point) having a sound basis in logic or fact; reasonable or cogent
+corporate: relating to a corporation, especially a large company or group
+criterion: a principle or standard by which something may be judged or decided
+impose: force to be accepted or put in place
+overrule: reject or disallow by exercising one's superior authority
+ongoing: Continuing; still in progress
+instantaneous: 1) occurring or done instantly, 2) existing or measured at a particular instant
+2310---
+prevalent: widespread in a particular area or at a particular time
+overall: in general rather than in particular or including all the people or things in a particular group or situation
+prevail: 1) prove more powerful than opposing forces; 2) be widespread in a particular area at a particular time; be current
+	 3) be current persuade(who) to do something
+deductive: Characterized by or based on the inference of particular instances from a general law. Ex) (v)deduce
+Inference: a conclusion reached based on evidence and reasoning
+basis: The underlying support or foundation for an idea, argument, or process
+conduct: 1) organize and carry out, 2) lead or guide(someone) to or around a particular place.
+Draw: 1) produce by making lines with a pen. 2) Pull or drag(e.g., car, extract idea, actual things..) to make it follow behind.
+Account: 1) a report or description of an event or experience; 2) a record or statement of financial expenditure and receipts.
+	 3) consider or regard in a specified way
+ledger: 1) a book or other collection of financial accounts of a particular type 2) a flat stone slab(large stone) covering a grave
+legislative: having the power to make laws.
+Respect: a particular aspect, point, or detail.
+Whim: a sudden desire or change of mind, especially unusual or unexplained.
+Norm: 1) something that is usual or standard; 2) a required standard; a level to be compiled with or reached.
+Breach: 1) an act of breaking or failing to observe a law, agreement, or code of conduct 2) make a gap in and breakthrough. 3) Whale rise and break through the water's surface.
+breakthrough: make or force a way through a barrier
+regulation: a rule or directive made and maintained by an authority
+directive: an official or authoritative instruction
+compute: calculate or reckon(a figure or amount)
+reckon: establish by counting or calculation; calculate
+sovereign: 1) supreme ruler, especially a monarch; 2) possessing supreme or ultimate power
+vogue: prevailing fashion or style at a particular time.
+optimize: make the best or most effective use of
+indefinitely: for an unlimited or unspecified period (or degree or extent)
+applicable: relevant or appropriate
+appropriate: suitable or proper in the circumstances.
+Exercise: use or apply
+whichever: used to emphasize a lack of restriction in selecting one of a definite set of alternatives.
+Alternative: one of two or more available possibilities.
+Bureau: an office or department for transacting a particular business.
+Concealment: the action of hiding something or preventing it from being known.
+Exertion: physical or mental effort.
+Exert: 1) apply or bring to bear 2) make a physical or mental effort
+Wonder: a feeling of surprise mingled with admiration caused by something beautiful, unexpected, unfamiliar, or inexplicable.
+Mingle: mix or cause to mix.
+Inexplicable: unable to be explained or accounted for.
+Elaboration: developing or presenting a theory, policy, or system in further detail.
+prompt: 1)cause or bring about(an action or feeling, 2) assist or encourage to say something
+obsolete: no longer produced or used; out of date
+plainly: able to be perceived easily
+imperious: assuming power on authority without justification, arrogant and domineering
+premise: previous statement or proposition from which another is inferred or follows as a conclusion
+intuitive: using or based on what one feels to be true even without conscious reasoning; instinctive
+treaty: a formally concluded and ratified agreement between countries
+ratify: sign or give formal consent to (treaty, contract, or agreement, making it officially valid
+desert: 1) empty or people 2) abandon(a person, cause or organization) in a way considered disloyal or treacherous 3) leave cause it to empty
+treacherous: guilty of or involving betrayal or deception
+deception: the action of deceiving someone
+hazardous: risky; dangerous
+deceive (of a person) cause (someone) to believe something untrue to gain some personal advantage.
+pre-x: before x
+abruptly: suddenly and unexpectedly
+precision: the quality, condition, or fact of being exact and accurate
+seize: take hold of suddenly and forcibly
+placeholders: a significant zero in the decimal representation of a number
+persistent: continuing firmly or obstinately in a course of action despite difficulty or opposition
+in the course of undergoing the specified process
+correspond: 1) have a close similarity; match or agree almost exactly; 2) communicate by exchanging letters, emails, or other messages
+concession: a thing that is granted, especially in response to demands; a thing conceded
+concede: admit that something is valid after first denying or resisting it
+reluctance: unwillingness or disinclination to do something
+unwillingness: the quality or state of being unwilling to do something
+disinclination: a reluctance or lack of enthusiasm
+operative: functioning or having an effect
+subclassable: you can inherit from them.
+Proprietary: Relating to an owner or ownership
+crack: a line on the surface of something along which it has split without breaking into separate parts
+along: moving in a constant direction (like a road)
+dashboard: a home page on a website giving access to different elements of the site's functionality
+whatever: Used to emphasize a lack of restriction in referring to anything or amount, no matter what
+inflate: Fill (a balloon, tire or other expandable structure) with air or gas so that it becomes distended.
+distended: swollen due to pressure from inside; bloated
+swell: (especially of a part of the body) becomes larger or rounder in size, typically as a result of an accumulation of fluid
+elaborate: involving many carefully arranged parts or details;
+scarcely: only just; almost not
+populated: 1) form the population of 2) cause people to settle in 3) fill or be present in(a place, environment, or domain
+entail: involve (something) as a necessary or inevitable part or consequence.
+Versatile: able to adapt or be adapted to many different functions or activities.
+Malice: the intention or desire to do evil; ill will
+subsequent: coming after something in time; following
+besides in addition
+vendor: a person or company offering something for sale, especially a trader in the street.
+Subset: a part of a larger group of related things.
+exploit: make full use of and derive benefit from (a resource)
+accommodate: provide lodging or sufficient space for.
+lodge: present(a complaint, appeal, claim, etc) formally to the proper authorities.
+deploy: move into position
+maneuver: a movement or series of moves requiring skill and care.
+dictate: lay down authoritatively; prescribe
+prescribe: 1) (of a medical practitioner) advise and authorize the use of (medicine) for someone, especially in writing 2) recommend (a substance or action) as something beneficial
+authoritatively: in a way that is trusted as being accurate or true; with authority xx///x/x/x/
+mitigate: make less severe, serious, or painful
+impaired: weakened or damaged
+intense: of extreme force, degree, or strength
+intensity: 1) the quality of being intense, 2) the measurable amount of a property, such as force, brightness, or a magnetic field.
+refrain: stop oneself from doing something
+waive: refrain from insisting on or using
+diverge: (of a road, route) separate from another route, especially a main one, and go in a different direction.
+demystify: make clearer and easier to understand
+comprise: consist of; be made up of
+straightforward: Uncomplicated and easy to do or understand
+so far: 1) to a certain limited extent 2) (of a trend that seems likely to continue) up to this time
+quality: 1) measured against from standard something 2) a distinctive attribute or characteristic possessed by someone or something
+engagement: 1) formal agreement to get married 2) an arrangement to do something or go somewhere at a fixed time
+obligation: 1) condition of being morally or legally bound to do something 2) debt of gratitude for a service or favor
+endeavor: Try hard to do or achieve something
+syntax: the arrangement of words and phrases to create well-formed sentences in a language.
+pervasive: (especially of an unwelcome influence or physical effect)spreading widely throughout an area or a group of people.
+acknowledge: 1) accept or admit the existence or truth of 2) recognize the fact or importance or quality of
+refugee: a person who has been forced to leave their country to escape war, persecution, or natural disaster
+Hostility and ill-treatment, especially based on ethnicity, religion, sexual orientation, or political beliefs.
+ill-treatment: cruel treatment
+apex: the top or highest part of something, especially one forming a point
+vertex: the highest point
+discrete: individually separate and distinct
+abound: exist in large numbers or amounts
+traverse: travel across or through
+adjacency refers to the relationship between two nodes or vertices in a graph directly connected by an edge.
+2311---
+glossary: alphabetical list of terms or words found in or relating to a specific subject, text, or dialect, with explanations; a brief dictionary
+depict: show or represent by a drawing, painting or other art form
+dissect: methodically cut up to study its internal parts.
+Theorem: a general proposition
+assertion: 1) a confident and forceful statement of fact 2) the action of stating something or exercising authority confidently and forcefully
+proposition: 1) a word or idea that expresses a judgment or opinion 2) a suggested program or plan of action 
+omit: 1) leave out or exclude (something), either intentionally or forgetfully 2) fail or neglect to do (something); leave undone
+intricate: very complicated or detailed
+parenthesis: in writing, usually marked off by curved brackets, dashes, or commas. (e.g. ())
+flag: 1)mark for attention in a specified way 2) mark with the symbol for displaying something specific object.
+Oblong: an object or flat figure in an elongated rectangle or oval shape.
+Elongated: long about width, especially unusually so.
+Deviation: The action of departing from an established course or accepted standard
+underscore: A line drawn under a word or phrase for emphasis.
+Frequency: 1) The rate at which something occurs or is repeated over a particular period or in a given sample. 
+	   2) The rate at which a vibration occurs that constitutes a wave, or in an electromagnetic field, usually measured per second.
+Linting: It checks the source code for programmatic and stylistic errors.
+Spectator: a person who watches a show, game, or other event.
+Audit: An official inspection of an individual's or organization's accounts, typically by an independent body.
+Fraud: wrongful or criminal deception intended to result in financial or personal gain
+regulate: Control or maintain the rate or speed so that it appropriately
+Elicit: evoke or draw out from someone in reaction to one's actions or questions.
+Invariably: in every case or on every occasion; always
+Exclamation: a sudden cry or remark, especially expressing surprise, anger, or pain
+rebase: establish a new base level for
+Denture: A removable plate or frame holding one or more artificial teeth.
+Precede: 1) come before (something) in time. 2)
+fiscally: In a way that relates to government revenue, especially taxes.
+Extensive: Covering or affecting a large area.
+Revenue: Income, especially when of a company or organization and of a substantial nature.
+Substantial: 1) of considerable importance, size, or worth. 2) actual and tangible rather than imaginary
+tangible: perceptible by touch
+neglect: 1) failure to care for properly, 2) the state or fact of being uncared for
+monotonic: 1) varying in such a way that it either never decreases or never increases 2) speaking or uttered with an unchanging pitch or tone
+utter: 1) complete; absolute 2) make (a sound) with one's voice
+authoritative: Able to be trusted as being accurate or true; reliable
+evenly: 1) to present a flat or uniform surface or line, 2) in equal numbers, amounts, or values
+implement: A tool, utensil, or other piece of equipment. For use particular purpose.
+Conformity: 1) compliance with standards, rules, or laws 2) similarity in form or type; agreement in character
+aggregation: The formation of several things into a cluster.
+irreversibly: In a way that cannot be undone or altered
+integral: necessary to make a whole complete; essential or fundamental
+capacitor: A device used to store an electric charge, consisting of one or more pairs of conductors separated by an insulator
+insulator: A substance that does not readily allow the passage of heat or sound.
+conductor: physics) an object that transmits heat, electricity, or sound, especially in terms of its capacity.
+in terms of: used to describe which particular area of a subject you are discussing / about something
+dissipate: squander or fritter away (money, energy or resources)
+electromotive: producing or tending to produce an electric current.
+inductance: The property of an electric conductor or circuit that causes an electromotive force to be generated by a change in the current flowing
+thus: As a result or consequence of this; therefore
+inhibit: Hinder, restrain, or prevent
+warrant: justify or necessitate(a certain course of action)
+necessitate: make (something) necessary as a result or consequence
+disproportionate: too large or too small in comparison with something else
+undue: unwarranted or inappropriate because excessive or disproportionate
+self-conscious: feeling undue awareness of oneself, one's appearance, or one's actions
+shabby: in poor condition through long or hard use or lack of care
+gerund: a form derived from a verb but functions as a noun. e.g., -ing
+insight: the capacity to gain an accurate and deep intuitive understanding of a person or thing.
+capacity: 1) the maximum amount that something can contain and 2) the amount that something can produce
+oscillate: 1) move or swing back and forth at a regular speed. 2) regularly vary in magnitude or position around a central point
+apparatus: 1) the technical equipment or machinery needed for a particular activity or purpose, 2) a complex structure within an organization or system
+alternating: (of two or more things) occurring in turn repeatedly
+transformer: 1) an apparatus for reducing or increasing the voltage of an alternating current 2) a person or thing that transforms something
+proximity: nearness in space, time or relationship
+fluctuations: An irregular rising and falling in number or amount; a variation
+intrude: Put oneself deliberately into a place or situation where one is unwelcome or using
+insulate: protect (something) by interposing material that prevents heat loss or sound intrusion.
+interpose: 1) place or insert between one thing and another 2) intervene between parties
+sustain: 1) strengthen or support physically or mentally 2) undergo or suffer(something unpleasant)
+throughout: in every part of (a place or object) 
+legislation: kaws, considered collectively
+collectively: as a group; as a whole
+billable: (of time spent engaged in a professional service) subject to a fee
+exponent: 1) a person who believes in and promotes the truth or benefits of an idea or theory
+ 	  2) a quantity representing the power to which a given number or expression is to be raised (e.g., 3 in 2^3 2*2*2)
+realm: 1) a kingdom, 2) a field or domain of activity or interest
+induct: admit(someone) formally to a position or organization
+parentheses: 1) a word, clause, or sentence inserted as an explanation or afterthought into a passage that is grammatically complete without i. in writing, usually 
+	     marked off by curved brackets, dashes, or commas. 2) a pair of round brackets used to mark off a parenthetical word or phrase.
+Afterthought: an item or thing that is thought of or added later
+ergonomic: Relating to or designed for efficiency and comfort in the working environment
+enumerable: Able to be counted by one-to-one correspondence with the set of all positive integers
+otherwise: 1) in a different state or situation 2) in circumstances different from those present or considered; or else
+constitute: 1) be (a part) of a whole 2) give legal or constitutional form to (an institution); establish by law
+bilateral: having or relating to two sides
+lateral" 1) of, at, toward, or from the side or sides 2) a side part of something, especially a shoot or branch growing out from the side of a stem
+ally: 1) combine or unite a resource or commodity with (another) for mutual benefit. 2) side with or support
+commodity: 1) raw material or primary agricultural product that can be bought and sold, such as copper or coffee 2) a valuable thing
+confederation: An organization that consists of several parties or groups united in an alliance or league
+seam: 1) a line along which two pieces of fabric are sewn together in a garment or other article 
+seamless: smooth and continuous, with no apparent gaps or spaces between one part and the next.
+Informative: providing useful or interesting information
+normative: establishing, relating to, or deriving from a standard or norm, especially of behavior
+consistent: 1) acting or done in the same way over time, especially to be fair or accurate 
+	    2) unchanging in nature, standard, or effect over time 3) compatible or in agreement with something
+compatible: (of two things) able to exist or occur together without conflict
+allegory: a story, poem, or picture that can be interpreted to reveal a hidden meaning, typically a moral or political one
+literal: taking words in their usual or most basic sense without metaphor or allegory 2) representing the exact words of the original text
+Equivalent: Equal in value, amount, function, meaning, etc.
+Canonicalization: In computer science, canonicalization converts data with more than one possible representation into standard
+conflate: Combine (two or more texts, ideas, etc) into one.
+consecutive: Following continuously
+exaggerated: regarded or represented as larger, better or worse than in reality
+consortium: an association, typically of several business companies
+supplant: supersede and replace
+supersede: take the place of (a person or thing previously in authority or use); supplant
+bitwise: designating an operator in a programming language that manipulates the individual bits in a byte or word
+surrogate: a substitute, especially a person deputizing for another in a specific role or office
+substitute: a person or thing acting or serving in place of another
+in place of (something): instead of someone or something
+deputy: A person whose immediate superior is a senior figure within an organization and who is empowered to act as a substitute for this superior
+lenient: permissive, merciful, or tolerant
+retrofit: add to something that did not have it when manufactured
+analogous: comparable in certain respects, typically in a way that makes clearer the nature of the things compared.
+metric: 1) of or based on the meter as a unit of length; relating to the metric system 2) a system or standard of measurement
+congested: (of a road or place) so crowded with traffic or people
+controversial: giving rise or likely to give rise to public disagreement
+divert: 1) cause(someone or something) to change course or turn from one direction to another 2) draw (attention) of someone from something
+lodge: 1) present formally to the proper authorities 2) make or become firmly fixed or embedded in a particular place 3) stay or sleep in the house
+accommodate: 1) provide lodging or sufficient space for 2) fit in with the wishes or needs of
+retension: 1) the continued possession, use, or control of something
+due: 1) expected at or planned for at a certain time 2) of the proper quality or extent; adequate 3) person's right 4) obligatory payment
+2312---
+ : The action of or a facility for systematic electronic information retrieval
+regard: consider or think of (someone or something) in a specified way)
+enclose: surround or close off on all sides
+cataclysm: a large-scale and violent event in the natural world
+entice: Attract or tempt by offering pleasure or advantage
+inclination: 1) a person's natural tendency or urge to act or feel in a particular way, 2) a slope or slant, 3) the angle at which a straight line or plane is inlined to another
+slant: 1) slope or lean in a particular direction 2) present or view from a particular angle, especially in a biased or unfair way
+deviate: 1) depart from an established course 2) another term for deviant
+throttle: 1) a device controlling the flow of fuel or power to an engine 2) attack or kill (someone) by chocking or strangling them 3) control with a throttle
+lookup: the action of or a facility for systematic electronic information retrieval
+out-of-band: 
+resilience: the capacity to withstand or to recover quickly from difficulties,
+stale: 1) no longer new and interesting or exciting, 2) invalid because out of date
+justification: The action of showing something to be right or reasonable.
+adverse: Preventing success or development; harmful, unfavorable
+alongside: 1) close to the side of; next to 2) together and in co-operation with
+ingestion: 1) The process of taking food, drink or another substance into the body by swallowing 2) The process of absorbing information
+medium: 1) an agency or means of doing something, 2) the intervening substance through which impressions are conveyed to the senses or a force acts
+intervene: 1) come between to prevent or alter a result or course of events 2) extend or occur between events
+compilation: 1) the action or process of producing something 2) a thing especially a book record or broadcast program, that is put together by assembling
+excerpt: A short extract from a film, broadcast, or piece of music or writing
+meteoric: very fast speed
+fetch: 1) go for and then bring back (someone or something) for someone 2) achieve (a particular price) when sold.
+ascertain: Find (something) out for certain; make sure of.extraneous: irrelevant or unrelated to the subject being dealt with
+up-to-date: incorporating the latest developments and trends
+obscure: not discoved or known about; uncertain
+2401---
+responsive: Reacting quickly and positively
+nauseating: causing or liable to cause a feeling of nausea or disgust
+liable: responsible by law, legally answerable
+nausea: a feeling of sickness with an inclination to vomit
+cognition: The mental action or process of acquiring knowledge and understanding through thought, experience and the senses
+counterfeit: a fraudulent imitation of something else; a forgery 2) imitate fraudulently
+Fraudulent: obtained, done by, or involving deception, especially criminal deception
+forgery: the action of forging or producing a copy of a document, signature, banknote, or work of art
+forge: 1)make or shape by heating, 2)create ( a relationship or new conditions), 3) produce a copy or imitation of for deception
+susceptible: likely or liable to be influenced or harmed by a particular thing.
+defer: put off (an action or event) to a later time; postpone
+forgiving: 1)ready and willing to forgive, 2)(of a thing)easy or safe to deal with
+relay: a group of people or animals engaged in a task or activity for a fixed period of time and then replaced by a similar group
+approach: 1)come near, 2)speak to (someone) for the first time about something, typically with a proposal or request 3)a way of dealing with something
+subordinate: lower in rank or position
+intrinsic: belonging naturally; essential
+collide: 1)hit with force when moving, 2) come into conflict or opposition
+Colloquially: in the language of ordinary or familiar conversation, informally
+vice versa: used to say that what you have just said is also true in the opposite order.
+trucate: 1)shorten the duration or extent of, 2)shorten by cutting off the top or end.
+semaphore: 1)a system of sending messages by holding the arms or two flags  in certain positions, 2)an apparatus for sending messages by semaphore, consiting upright 
+exclusive: 1)excluding or not admitting other things, 2)restricted or limited to the person, group, or area concerned
+preferably: 1)ideally, 2)if possible
+withdraw:1)remove or take away (something) from a particular place or position, 2)leave or cause to leave a place or situation
+en: a unit of measurement equal to half an em and approximately the average width of typeset characters, used especially for estimating the total amount of space text will req.
+typeset: arrange the type or process the data for (text that is to be printed)
+merely: 1)just, 2)only
+sanitized: 1)made clean and hygienic; disinfected
+palatable: 1)(of food or drink)pleasant to taste, 2)(of an action of proposal)acceptable or satisfactory
+arpersand: & mark name
+reentrant: (of an angle) pointing inward.
+disperse: distribute or spread over a wide area.
+suspend:1)temporarily prevent from continuing or being in force or effect, 2)hang (something) from somewhere
+somehow: In some way; by some means
+delve: Reach inside a receptacle and search for something
+receptacle: an object or space used to contain something.
+attain: succeed in achieving (something that one desires and has worked for)
+strive: make great efforts to achieve or obtain something.
+further: promote
+promote: further the progress of (something, especially a cause, venture, or aim); support or actively encourage.
+2402---
+Flush: It becomes red and hot, typically due to illness or strong emotion. 2) It cleanses by causing large quantities of water to pass through it.
+Adjust: alter or move to achieve the desired fit, appearance, or result.
+coerce: persuade (an unwilling person) to do something by using force or threats
+aggregate: 1) a whole formed by combining several elements, 2) form or group into a class or cluster
+sanitize: make clean and hygienic
+blaze: very large or fiercely burning fire
+passphrase: A string of words that must be used to gain access to a computer system or service
+Impersonate: Pretend to be (another person) for entertainment or to deceive someone.
+Invocation: The action of invoking something or someone for assistance or as an authority.
+invoke: 1) cite or appeal to (someone or something) as an authority for an action or in support of an argument.
+contentious: causing or likely to cause an argument; controversial.
+consolidate: 1) make (something) physically stronger or more solid 2) combine (a number of things) into a single more effective or coherent whole.
+coherent: 1) logical and consistent 2) united as or forming a whole.
+ample: Enough or more than enough; plentiful
+2403---
+isomorphic: corresponding or similar in form and relations.
+contiguous: touching or connected throughout in an unbroken sequence.
+integrity: 1) quality of being honest and having strong moral principles 2) the state of being whole and undivided
+reception: The action or process of receiving something sent, given, or inflicted.
+brim: the projecting edge at the bottom of a hat.
+projecting: extending outward beyond something else; protruding.
+distill: 1) purify (a liquid) by vaporizing it.
+herein: In this document or book.
+disclose: make  (secret or new information) known.
+Affiliate: Officially attach or connect ( a subsidiary group or a person) to an organization
+subsidiary. It is more important than anything else but is related or supplementary to something.
+bearing: 1) A person's way of standing or moving. 2) relation; relevance.
+Disclaimer: A statement that denies something, especially responsibility.
+periphery: The outer limits or edge of an area or object.
+advent: The arrival of a notable person, thing, or event.
+enquire: Asking a question to someone.
+amenity: 1) A desirable or useful feature or facility of a building or place.
+Compound: A thing that is composed of two or more separate elements; a mixture
+recombine: Combine or cause to combine again or differently.
+abundant: Existing or available in large quantities; plentiful.
+2404---
+Harness: 1) A set of straps and fittings by which a horse or other draft animal is fastened to a cart, plow, etc. and is controlled by its driver. 2) Control and make use of (natural resources)
+Consensus: A general agreement.
+Sentiment:  A view of or attitude toward a situation or event; an opinion
+Nucleus: The central and most important part of an object, movement, or group, forming the basis for its activity and growth.
+Retrospective: looking back on or dealing with past events or situations.
+Preference: A greater linking for one alternative over another or others.
+Prior to: before
+stringent: 1) tight, constricted 2) marked by rigor, strictness, or severity especially with regard to rule or standarded
+Averse: Having a strong dislike of or opposition to something.
+Undertake: 1) Commit oneself to and begin (an enterprise or responsibility); take on. 2) promise to do a particular thing
+Diagonal: (of a straight line) Joining two opposite corners of a square, rectangle, or other straight-sided shape.
+perpetrate: carry out or commit ( a harmful, illegal, or immoral action)
+In a way: to a certain extent(used to reduce the effect of a statement
+Synthesis: The combination of ideas to form a theory or system.
+Bitwise: Designating an operator in a programming language that manipulates the individual bits in a byte or word.
+operand: 1) The quantity on which an operation is to be done.
+Negation: 1) The contradiction or denial of something 2) the absence or opposite of something actual or positive 3) Inversion(math)
+Contradiction: A combination of statements, ideas, or features of a situation that are opposed to one another.
+Collective: Done by people acting as a group.
+decisive: settling an issue; producing a definite result.
+Elapse: (of time) pass or go by.
+Cumbersome: Large or heavy and therefore difficult to carry or use; unwieldy.
+Unwieldy: Difficult to carry or move because of its size, shape, or weight.
+Destructing: A convenient way of extracting multiple values from data stored in (possibly nested) objects and Arrays.
+cue: A thing said or done that serves as a signal to an actor or other performer to enter or to begin their speech or performance
+pertain: Be appropriate, related, or applicable.
+Embark: Go on board a ship, aircraft, or other vehicle.
+Atlas: a book of maps or charts
+Sake: For the purpose of; in the interest of; in order to achieve or perserve
+Revert: return to (previous state)
+Unary: (especially of a mathematical operation) consisting of or involving a single component or element.
+Shorthand: A method of rapid writing by means of abbreviations and symbols, used especially for taking dication.
+vice versa: with the main items in the preceding statement the other way around
+autonomous: (of a country or region) having the freedom to govern itself or control its own affairs
+Amend: Make minor changes in order to make it fairer, more accurate., or more up-to-date.
+Exponential: Characterized by or being an extremely rapid increase an exponential growth rate.
+Tedious: Too long, slow, or dull.
+Vigilantly: Great deal of care and watchfulness
+Predicate: 1) state, affirm, or assert(something) about the subject.
+affirm: 1) State as a fact, assert strongly 2) offer (someone) emotional support or encouragement.
+tack: 1) a small, sharp broad-headed nail 2) fasten or fix in place with tacks
+Verbal: relating to or in the form of words.
+Binary: 1) Relating to, composed of, or involving two things. 2) relating of numerical notation that has 2 rather than 10 as a base
+Complement: 1) A thing that completes or brings to perfection. 2) add to (smt) in a way that enhances
+Agnostic: Denoting or relating to hardware or software that is compatible with many types of platforms or operating systems.
+Sandbox: 1) A testing environment in a computer systemin which software can be run securely 2) isolate software so that it can access only certain resources, programs within a computer system.
+Glitch: A sudden, usually temporary malfunction or irregularity of equipment.
+Nasty: Highly unpleasant, especially to the senses.
+Sidestep: Avoid (something) by stepping sideways.
+Serveilance: close observation, especially of a suspected spy or criminal.
+confiden: intended to be kept secret
+wary: feeling or showing caution about possible dangers or problems.
+Disguise: Having changed one's appearance in order to conceal one's identity.
+Cipher: A secret or disguised way of writing; a code.
+Tamper: 1) interfere with (something) in order to cause damage or make unauthorized alterations.  2) exert a secret or corrupt influence upon (someone)
+Intelligible: Able to be understood; comprehensible.
+Unscramble: Restore (something that has been scrambled) to an intelligible, readable, or viewable state.
+Adherence: 1) The act, action, or quality of adhering 2) steady or faithful attachment
+Fidelity: The quality or state of being faithful
+Kick off: The start of something.
+Administer: 1) manage and be responsible for the running of 2) dispense or apply 3) give help or service
+Dispense: 1) Distribute or 

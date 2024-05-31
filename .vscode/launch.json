@@ -5,6 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "app",
+            "request": "launch",
+            "mainClass": "app",
+            "projectName": "pmp_3628b70e"
+        },
+        {
+            "type": "java",
+            "name": "app",
+            "request": "launch",
+            "mainClass": "Language.Java.app",
+            "projectName": "pmp_3628b70e"
+        },
+        {
             "type": "node",
             "request": "launch",
             "name": "Launch Program",

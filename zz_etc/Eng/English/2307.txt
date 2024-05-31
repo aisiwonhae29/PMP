@@ -1,0 +1,55 @@
+reserved : kept specially for a particular purpose or person
+
+
+mandatory = compulsory
+generic : characteristic of or relating to a class or group of things; not specific
+Rudimentary : involving or limited to basic principles. / immature
+henceforth : from this time on or from that time on.
+errata :  a list of errors in a printed work discovered after printing and shown with corrections
+perceptible : able to be seen or noticed.
+perceive : become aware or conscious of (something); come to realize or understand
+roll out : officially launch or introduce a new product or service
+de facto : actual
+not backward compatible : not compatible with lower version
+plural : denoting more than one
+criterion : a standard by which you judge, decide about, or deal with something
+underlie : be a significant cause of basis of (something) even if not necessarily manifest or obvioumanifest
+mainfest : clear or obvious to the eye or mind
+settle : resolve or reach an agreement about(an argument or problem)
+retrieval : The process of getting something back from somewhere
+participle : a word formed from a verb(e.g., going, gone, being, been) and used as an adjective or a noun
+underlie : Be a significant cause or basis of (something) even if not necessarily manifest or obvious
+denote : be a sign of; indicate
+semantics : the branch of linguistics and logic concerned with meaning. 
+cogent : (of an argument or case) clear, logical, and convincing
+syntax : the arrangement of words and phrases to create well-formed sentences in a language
+hence : as a consequence; for this reason
+overview : a general review or summary of a subject
+encompass : surround and have or hold within
+formal : done in accordance with rules of convention or etiquette; suitable for or constituting an official or important situation or occasion
+complaint : a statement that a situation is unsatisfactory or unacceptable
+compliance : the action or fact of complying with a wish or command
+semiotics : the study of signs and symbols and their use or interpretation
+yield : 1) produce or provide 2) give way to arguments, demands 3) give way under force or pressure
+incorporate : take in or contain (something) as part of a whole; include / constitute (e.g., a company,organizations ..) as a legal corporation
+magnitude : The great size or extent of something
+precede : 1) come before(something) in time 2) go in fornt or ahead of 3) pcome before in order or position
+capable : having the ability, fitness, or quality necessary to do or achieve a specified thing
+respective : belining or relating separately to each of two or more people or things
+eventually : in the end, especially after a long delay, dispute, or series of problems
+conscious : 1) aware of and reponding to one's surroundings; awake  2) aware
+allude : suggest or call attention to indirectly; hint at
+incidentally : used when a person has something more to say, or is about to add a remark unconnected to the current subject; by the way
+obligation : an act or course of action to which a person is morally or legally bound
+assure : tell someone something positively or confidently to dispel any doubts they may have
+dispel : make (a doubt, feeling, or belief) disappear
+account : 1) a report or description of an event or experience 2) a record or statement of financial expenditure and receipts
+distress : extreme anxiety, sorrow, or pain
+inflict : cause (something painful) to be suffered by someone or something
+subdirectory : a drectory below another directory in a hierarchy
+revolve : move in a circle on a central axis
+opinionated : conceiteldly assertive and dogmatic in one's opinions
+premises : 1) a house or building together with its land 2) a previous statement or proposition from which another is inferred or follows as a conclusion
+provision : 1) the action of providing or supplying something for use 2)an amount or thing supplied or provided.
+behalf : speak or act for someone
+latency : the delay before a transfer of data begins following an instruction for its transfer

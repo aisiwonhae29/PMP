@@ -1,0 +1,63 @@
+2404---
+Harness: 1) A set of straps and fittings by which a horse or other draft animal is fastened to a cart, plow, etc. and is controlled by its driver. 2) Control and make use of (natural resources)
+Consensus: A general agreement.
+Sentiment:  A view of or attitude toward a situation or event; an opinion
+Nucleus: The central and most important part of an object, movement, or group, forming the basis for its activity and growth.
+Retrospective: looking back on or dealing with past events or situations.
+Preference: A greater linking for one alternative over another or others.
+Prior to: before
+stringent: 1) tight, constricted 2) marked by rigor, strictness, or severity especially with regard to rule or standarded
+Averse: Having a strong dislike of or opposition to something.
+Undertake: 1) Commit oneself to and begin (an enterprise or responsibility); take on. 2) promise to do a particular thing
+Diagonal: (of a straight line) Joining two opposite corners of a square, rectangle, or other straight-sided shape.
+perpetrate: carry out or commit ( a harmful, illegal, or immoral action)
+In a way: to a certain extent(used to reduce the effect of a statement
+Synthesis: The combination of ideas to form a theory or system.
+Bitwise: Designating an operator in a programming language that manipulates the individual bits in a byte or word.
+operand: 1) The quantity on which an operation is to be done.
+Negation: 1) The contradiction or denial of something 2) the absence or opposite of something actual or positive 3) Inversion(math)
+Contradiction: A combination of statements, ideas, or features of a situation that are opposed to one another.
+Collective: Done by people acting as a group.
+decisive: settling an issue; producing a definite result.
+Elapse: (of time) pass or go by.
+Cumbersome: Large or heavy and therefore difficult to carry or use; unwieldy.
+Unwieldy: Difficult to carry or move because of its size, shape, or weight.
+Destructing: A convenient way of extracting multiple values from data stored in (possibly nested) objects and Arrays.
+cue: A thing said or done that serves as a signal to an actor or other performer to enter or to begin their speech or performance
+pertain: Be appropriate, related, or applicable.
+Embark: Go on board a ship, aircraft, or other vehicle.
+Atlas: a book of maps or charts
+Sake: For the purpose of; in the interest of; in order to achieve or perserve
+Revert: return to (previous state)
+Unary: (especially of a mathematical operation) consisting of or involving a single component or element.
+Shorthand: A method of rapid writing by means of abbreviations and symbols, used especially for taking dication.
+vice versa: with the main items in the preceding statement the other way around
+autonomous: (of a country or region) having the freedom to govern itself or control its own affairs
+Amend: Make minor changes in order to make it fairer, more accurate., or more up-to-date.
+Exponential: Characterized by or being an extremely rapid increase an exponential growth rate.
+Tedious: Too long, slow, or dull.
+Vigilantly: Great deal of care and watchfulness
+Predicate: 1) state, affirm, or assert(something) about the subject.
+affirm: 1) State as a fact, assert strongly 2) offer (someone) emotional support or encouragement.
+tack: 1) a small, sharp broad-headed nail 2) fasten or fix in place with tacks
+Verbal: relating to or in the form of words.
+Binary: 1) Relating to, composed of, or involving two things. 2) relating of numerical notation that has 2 rather than 10 as a base
+Complement: 1) A thing that completes or brings to perfection. 2) add to (smt) in a way that enhances
+Agnostic: Denoting or relating to hardware or software that is compatible with many types of platforms or operating systems.
+Sandbox: 1) A testing environment in a computer systemin which software can be run securely 2) isolate software so that it can access only certain resources, programs within a computer system.
+Glitch: A sudden, usually temporary malfunction or irregularity of equipment.
+Nasty: Highly unpleasant, especially to the senses.
+Sidestep: Avoid (something) by stepping sideways.
+Serveilance: close observation, especially of a suspected spy or criminal.
+confiden: intended to be kept secret
+wary: feeling or showing caution about possible dangers or problems.
+Disguise: Having changed one's appearance in order to conceal one's identity.
+Cipher: A secret or disguised way of writing; a code.
+Tamper: 1) interfere with (something) in order to cause damage or make unauthorized alterations.  2) exert a secret or corrupt influence upon (someone)
+Intelligible: Able to be understood; comprehensible.
+Unscramble: Restore (something that has been scrambled) to an intelligible, readable, or viewable state.
+Adherence: 1) The act, action, or quality of adhering 2) steady or faithful attachment
+Fidelity: The quality or state of being faithful
+Kick off: The start of something.
+Administer: 1) manage and be responsible for the running of 2) dispense or apply 3) give help or service
+Dispense: 1) Distribute or 

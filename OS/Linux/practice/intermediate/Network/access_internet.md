@@ -11,6 +11,7 @@
 2. type 'nmtui' 
 
 - Command on your terminal and open Network Manager. After opening Network manager, select 'Edit connection'.
+- This cmd is interact with "/etc/sysconfig/network-scripts/ifcfg-enp0s3"
 
 3. Pick the network interfaces and click on the 'Edit button'.
 

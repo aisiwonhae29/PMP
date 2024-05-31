@@ -6,6 +6,33 @@
 - When a file system or storage device is mounted, it becomes part of the unified directory structure, enabling users and app to access and interact with ths seamlessly.
 - In programming, mounting typically achieved through system calls or library functions provided by the operating system.
 
+### cmd
+
+- sudo mount -t vboxsf -o uid=$USER,gid=vboxsf a ~/annotation
+
+\# option specification
+
+- t: Filesystem type
+  - ext4    : The fourth extended filesystem.
+  - xfs     : The XFS filesystem.
+  - vfat    : FAT filesystem used in USB drives.
+  - ntfs    : NTFS filesystem used in windows.
+  - iso9660 : Filesystem for CD-ROMs.
+  - nfs     : Network File system.
+  - cifs    : Common internet file system for SMB shares.
+  - vboxsf  : Virtualbox shared folder filesystem.
+
+- o: This allows specifying various mount options.
+  - uid     : This option sets the user ID of the owner of the files in the mounted filesystem.
+    - numeric user ID   : -o uid=1000
+    - username ID       : -o uid=john
+  - gid     : This option sets the group ID of the owner of the files in the mounted filesystem. Same format as uid.
+  - ro      : Read-only
+  - rw 
+  - noexec  : Do not allow execution of binaries on the mounted filesystem
+  - nosuid  : Do not allow set-user-identifier or set-group-identifier bits to take effect
+  - nodev   : Do not interpret character or block special devices on the filesystem.
+
 ### explanation
 
 1. File System Types
@@ -42,3 +69,4 @@
 - Mounting temporary file systems (e.g., tmpfs) for specific purposes, like creating a RAM disk.
 - Mounting network file system (e.g., NFS, CIFS/SMB) to access remote file shares.
 - Mounting loopback file systems, which allow treating a regular file as a file system.
+
