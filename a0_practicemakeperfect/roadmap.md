@@ -11,6 +11,7 @@
 - algorithm: sort like algorithm
 - https://www.elprocus.com/ethernet-protocol/
 - uncle's demo program
+- postman_session required site link
 - electron: about & how it works?
 - vscode entry point(with pkg, the exe file formatter)
 - ssh
@@ -41,6 +42,7 @@
 - voice about(get system voice authorization)
 - websocket
 - design pattern
+- exit policy: initiated from GRIS project connection is terminated. search for exit process and reconnect process, convention way and new way.
 - android studio build firebase msg logic
 - talking with gpt in SSCapp (get info from talking each other)
 - talking with gpt in app (get info from talking each other)
@@ -93,6 +95,7 @@
 - Server Sent Events
 - Nginx
 - jenkins system: makes flow of jenkins with github. CI/CD
+- algorithm: sort like algorithm
 - array: array function & array type (ex: queue, map ...)
 - data structures: Arrays, Linked List, Stack, Queue, Hash table, Graph, Tree, Heap
 - Architectural Patterns

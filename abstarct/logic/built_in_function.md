@@ -7,4 +7,5 @@
 - path triggered function
 - security
 - input/output function
-- debug
+- after fail, init function
+- success acheive value setting( setting what value is reach the goal)

@@ -1,10 +1,15 @@
 # uri & url
 
 ### uri
-  
+
+\# about  
+
 - generic term that emcompasses both Uniform Resource Locators(URls) and Uniform Resource Names (URNs)
 - string of characters that provides a unique identifier to name or locate a resource on the Internet or any other network
 
+\# syntax
+
+- '/:alias(a|b|c)': This indicates after '/' word set alias as argument. And this case '(a|b|c)' a, b, c can be a value of alias. If another word that  out of provided word is on url, then error or redirect sequence is executed.
 
 ### url
 
