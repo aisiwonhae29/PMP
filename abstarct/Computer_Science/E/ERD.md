@@ -4,4 +4,4 @@
 
 - entity-relationship diagram.
 
-<img src="../zzz_image/E_erd.webp">
+<img src="../zzz_image/E_ERD_01.png">

@@ -17,7 +17,7 @@
 - Differntiates between phone, PC and considers location.
 - Records a click data from querioes.
 
-**conclusion** Find good search algorithm.
+**conclusion** Making qualified data.
 
 \# RankBrain
 
@@ -31,7 +31,7 @@
     - Adjusts the relative importance of individual terms within a query, based on how users interact with search results.\
     - This helps determine how relevant certain terms are in teh context of the query.
 
-**conclusion** Make proram more accurately on search result.
+**conclusion** Make accurately results with terms.
 
 \# DeepRank
   
@@ -40,9 +40,40 @@
 
 **conclusion** Understand more on query
 
-\# RankEmbed
+\# RankEmbed & RankEmbed-BERT
+
+#### RankEmbed
 
 - RankEmbed focuses on the task of embedding relevant features for ranking.
+- This assumed that handled by deep learning system to improve google's search classification process.
+
+#### RankEmbed-BERT
+
+- This is enhanced version of RankedEmbed, integrating the algorithm and structure of BERT.
+- This integration was carried out to significantly improve Rankembed's language comprehension capabilities.
+- This trained after retrieve the data.
+
+**conclusion** Setting about ranking score
+
+\# MUM
+
+- It's approximately 1,000 times more powerful than BERT and represents a major advancement in google's search.
+- Good performance makes from MUM but complexity of logic makes this module used selectively.
+
+**conclusion** Good performance to make natural languages, high complexity.
+
+\# Tangram & Glue
+
+- All these systems work together within the framework of Tangram, which is responsible for assembling the SERP with data from Glue.
+- This is not just a matter of ranking results, but organizing them in a way that is useful and accessible to users, considering elements like image carousels, direct answers, and other non textual elements.
+  - Tangram: Assembles the SERP by organizaing elements such as web results, carousels, and snippets.
+  - Glue: Generalization and extension of Navboost. Unified model of user interaction signals for all types of search results.
+  
+**conclusion** Integrates the results and make SERP:Searching Engine Result Page
+
+\# Freshness node & Instant Glue
+
+- Giving more weight to recent information, which is especially crucial in searches about news or current events.
 
 ### summary
 

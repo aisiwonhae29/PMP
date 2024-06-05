@@ -1,5 +1,13 @@
 # idea pool
 
+### portfolio
+
+\# 오늘뭐먹지
+
+- apply the google logic in 오늘 뭐먹지
+  - Handle each person's data and makes the result what they choose the food.
+  - appeal to them the what is the food they like, and acknowledge them to what they likes.
+
 ### list
 
 - 유사 IP라면 CIDR은 어느정도로 잡을지?
