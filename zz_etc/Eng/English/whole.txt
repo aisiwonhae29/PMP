@@ -357,7 +357,7 @@ cataclysm: a large-scale and violent event in the natural world
 entice: Attract or tempt by offering pleasure or advantage
 inclination: 1) a person's natural tendency or urge to act or feel in a particular way, 2) a slope or slant, 3) the angle at which a straight line or plane is inlined to another
 slant: 1) slope or lean in a particular direction 2) present or view from a particular angle, especially in a biased or unfair way
-deviate: 1) depart from an established course 2) another term for deviant
+Deviate: 1) depart from an established course 2) another term for deviant
 throttle: 1) a device controlling the flow of fuel or power to an engine 2) attack or kill (someone) by chocking or strangling them 3) control with a throttle
 lookup: the action of or a facility for systematic electronic information retrieval
 out-of-band: 
@@ -515,7 +515,7 @@ Adherence: 1) The act, action, or quality of adhering 2) steady or faithful atta
 Fidelity: The quality or state of being faithful
 Kick off: The start of something.
 Administer: 1) manage and be responsible for the running of 2) dispense or apply 3) give help or service
-Dispense: 1) Distribute or 
+Dispense: 1) Distribute or provide to a number of people 2) manage without or get get rid of
 2405---
 improbable: Not likely to be true or to happen.
 irritable: having or showing a tendency to be easily annoyed or made angry

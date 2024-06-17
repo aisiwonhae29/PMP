@@ -14,7 +14,6 @@
 - postman_session required site link
 - electron: about & how it works?
 - vscode entry point(with pkg, the exe file formatter)
-- ssh
   
 <details><summary>uncles's demo program</summary>
 
@@ -165,6 +164,7 @@ Design Patterns
 - req&res: usage in framework. 
 - fs module
 - express
+- ssh
 <details><summary></summary>
 
 </details>

@@ -7,6 +7,7 @@
 - box-drawing character: used to indicates structure. ex)┌─, ├─, ┬─ ...
 ### C
 ### D
+- Delimiter: A blank space, comma, or other characters that indicates the beginning or end of a character string.
 ### E
 - Entity: In the context of networking and programming, an 'entity' generally refers to a distinct and identifiable component or object that participates in a system or communication process.
 ### F

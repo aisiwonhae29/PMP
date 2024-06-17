@@ -3,7 +3,7 @@
 ### Programming mind
 
 - "Create a program, think like a user."
-
+- The people are controlled by behavioral economics.
 
 ### manner of programmer to business friends
 

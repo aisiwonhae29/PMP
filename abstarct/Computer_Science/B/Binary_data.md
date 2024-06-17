@@ -25,3 +25,15 @@ Binary Operations: Logical operations (AND, OR, NOT) and bitwise operations (bit
 Networking: Data transmitted over networks is often represented in binary format, with protocols specifying how information is structured and transmitted.
 
 Understanding binary data is fundamental in computer science and programming, especially when dealing with low-level operations, memory management, file handling, and networking.
+
+### type
+
+1. Executable files     : These are binary files that can be executed by the operating system to perform tasks.
+2. Library files        : Shared libraries contain code that can be used by multiple programs. They help in modulrizing and reusing code.
+3. Data files           : These contain data in binary format and are used by app to store and retrieve data efficiently. Examples including image files, database files, and proprietary data formats.
+
+### execute
+
+1. Compilation      : Source code written in a programming language(C, C++) is compiled into a binary executable by a compiler.
+2. Interpreter      : For scripting languages(Python, Perl), the scripts are interpreted at runtime, translating the code into machine instructions.
+3. Dynamic linking  : When an executable uses shared libraries, the dynamic linker (Id.so) loads the necessary shared libraries into memory at runtime and resolves references to function and variables.
