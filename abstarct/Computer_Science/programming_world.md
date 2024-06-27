@@ -5,6 +5,7 @@
 ### A
 ### B
 - box-drawing character: used to indicates structure. ex)┌─, ├─, ┬─ ...
+- bitstream: This is a sequence of bits (binary digits, 0s and 1s) that is transmitted or processed as a continuous flow.
 ### C
 ### D
 - Delimiter: A blank space, comma, or other characters that indicates the beginning or end of a character string.

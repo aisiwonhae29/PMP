@@ -28,4 +28,8 @@
 
 \# disk
 
-- lsblk                                                                         : list all disks and prtitions
+- lsblk                                                                         : list all disks and partitions
+
+\# repository
+
+- VBoxManage modifyhd " C:\USers\~~\VirtualBox.vdi" --resize $(integer)
