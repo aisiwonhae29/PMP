@@ -10,7 +10,6 @@
 
 - algorithm: sort like algorithm
 - https://www.elprocus.com/ethernet-protocol/
-- uncle's demo program
 - postman_session required site link
 - electron: about & how it works?
 - vscode entry point(with pkg, the exe file formatter)
@@ -165,8 +164,11 @@ Design Patterns
 - fs module
 - express
 - ssh
-<details><summary></summary>
 
 </details>
+
+<details><summary>postpone</summary>
+
+- uncle's demo program
 
 </details>

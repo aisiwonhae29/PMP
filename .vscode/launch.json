@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "socketClient",
+            "request": "launch",
+            "mainClass": "com.example.intermediate.server.socketClient",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "socketServer",
+            "request": "launch",
+            "mainClass": "com.example.intermediate.server.socketServer",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "socket",
+            "request": "launch",
+            "mainClass": "com.example.intermediate.server.socket",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.example.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Language.Java.code.Main",
+            "projectName": "pmp_3628b70e"
+        },
+        {
+            "type": "java",
+            "name": "test1",
+            "request": "launch",
+            "mainClass": "Language.Java.implement.test1",
+            "projectName": "pmp_3628b70e"
+        },
+        {
+            "type": "java",
+            "name": "threadGroup",
+            "request": "launch",
+            "mainClass": "Language.Java.implement.threadGroup",
+            "projectName": "pmp_3628b70e"
+        },
+        {
+            "type": "java",
             "name": "app",
             "request": "launch",
             "mainClass": "app",
