@@ -539,3 +539,28 @@ Dismiss: Order or allow to leave; send away.
 Consult: Seek information or advice from (someone with expertise in a particular area).
 Analogy: A comparison between two things, typically for the purpose of explanation or clarification.
 Pad: 1) Fill or cover with soft material in order to protect or its contents 2) A thick piece of soft material use d to friction or jarring.
+2406---
+Decipher: Convert into normal language.
+Commitment: The state or quality of being dedicated to a cause, activity, etc.
+Conversely: Introducing a statement or idea which reverses one that has just been made or referred to.
+Correlated: Have a mutual relationship or connection, in which one thing affects or depends on another
+Idiomatic: Using, containing or denoting expressions that are natural to a native speaker.
+Succinctly: In a brief and clearly expressed manner.
+Epoch: A period of time in history or a person's life, typically one marked by notable events or particular characteristics.
+Patent: A government authority or license conferring a right or title for a set period. To grant a sole right exclude from others.
+Confer: 1) Grant or besto(a title, degree, benefit...) 2) Have discussions; exchange opinoion
+Surpass: Exceed; be greater than.
+Preference: A greater linking for one alternative over another or others.
+Stride: 1) walk with long, decisive 2) cross with one long step 3) a long decisive step.
+Discrepancy: A lack of compatibility or similarity between two or more facts.
+Discern: Perceive or recognize(something)
+Supremacy: The state or condition of being superior to all others in authority, power, or status.
+Transcend: Be or go beyond the range or limits of(something abstract, typically a conceptual field or division)
+Friction: 1) The resistance that one surface encounters when moving 2) Conflict or animosity caused by a clash of wills or opinions.
+Bias: 1) Prejudice in favor of or against one thing, person, or group compared with another usually in a way consider to be unfair. 2) (systematic) systematic distortion.
+Distortion: 1) The action of distorting or the state of being distorted 2) The action of giving a misleading account or impression.
+Distort: 1) pull or twist our of shafe 2) Give a misleading or false account or impression of.
+Reverberate: (of a loud noise) be repeated several times as an echo.
+Indispensable: Absolutely necessary.
+Neat: (of a place or thing) arranged in an orderly, tidy way.
+Tidy: Arranged neatly and in order.

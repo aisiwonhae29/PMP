@@ -37,3 +37,26 @@ Understanding binary data is fundamental in computer science and programming, es
 1. Compilation      : Source code written in a programming language(C, C++) is compiled into a binary executable by a compiler.
 2. Interpreter      : For scripting languages(Python, Perl), the scripts are interpreted at runtime, translating the code into machine instructions.
 3. Dynamic linking  : When an executable uses shared libraries, the dynamic linker (Id.so) loads the necessary shared libraries into memory at runtime and resolves references to function and variables.
+
+### binary files download
+
+\# Package managers (e.g., apt, yum, dnf)
+
+1. Respository query    : The package manager queries configured repositories to find the package.
+2. Dependency resolution: This resolves any dependencies required by the package.
+3. Download             : The package and its dependencies are downloaded.
+4. Verification         : Integrity and authenticity of the packages are verified using checksums and signatures.
+5. Installation         : The downloaded packages are unpacked and installed to the appropriate directories.
+6. Configuration        : Post-install scripts may run to configure the package.
+
+\# Executable scripts (e.g., curl)
+
+1. Download script      : Using 'curl' or 'wget'
+2. Execution
+
+\# Binary packages (e.g., .deb, .rpm)[Debian-based or Red Hat-based]
+
+1. Download package     : The binary package is downloaded.
+2. Installation cmd     : The package manager is used to install the package.
+3. Dependency Handling  : Additionaly commands might be needed to resolve dependencies.
+4. Configuration        : Post-installation scripts within the package configure the software.
