@@ -30,6 +30,7 @@
 ### N
 ### O
 - Origin: Web content's origin is defined by the scheme (protocol), hostname (domain), and port of the url used to access it. ex) http://localhost:3000
+- Overhead: This require extra resources or time to perform a task beyond the minimum necessary.
 ### P
 - Portability: The ability of software to be transferred from one machine or system to another.
 - Primitive: simple functions

@@ -48,8 +48,9 @@
    cmd[response.css("title::text").getall()]<br>
    cmd[response.css("title::text").get()]<br>
    cmd[response.css("title::text")[0].get()]<br>
-   cmd[response.css("title::text").re(r"Quotes.*)]
+   cmd[response.css("title::text").re(r"Quotes.*)]  // re() for regular expression.
    cmd[response.css("title::text").re(r"Q\w+")]
+   cmd[response.xpath("//title")]                   // Scrapy selectors also support Xpath > this very power for select the link that contains the text next page.
 
 - case 2
 

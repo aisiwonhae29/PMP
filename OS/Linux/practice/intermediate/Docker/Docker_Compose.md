@@ -31,6 +31,7 @@
 - docker-compose pause: pause service and activities
 - docker-compose unpause: opposite from puase
 - docker-compose ps: show docker compose list
+- docker-compose restart
 
 </details>
 
