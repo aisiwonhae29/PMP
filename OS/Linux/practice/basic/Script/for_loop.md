@@ -21,6 +21,8 @@ done
 
 directory="/root
 
+
+
 for file in $(find "$() -type f);
 do
     echo "processing file: $item"

@@ -15,6 +15,25 @@
 
 5. Data Pipeline in Machine Learning: It,s a sequence of data processing components used to prepare data, tran models, evaluate performance, and deploy machine learning models.
 
+### sequence
+
+\# ver.java
+
+```java
+InputStream fileIn              = new FileINputStream("file.txt");
+BufferedInputStream bufferedIn  = new BufferedInputStream(fileIn);
+InputStreamReader reader        = new InputStreamReader(bufferedIn, "UTF-8");
+BufferedReader bufferedReader   = new BufferedReader(reader);
+```
+
+0. InputStream: This class plays a fundamental role. That represents an input stream of bytes.(Deal with raw data)
+1. FileInputStream reads raw bytes from the file.
+2. BufferedinputSteram adds buffering to improve read efficiency.
+3. InpuStreamReader converts bytes to characters using specified encoding.
+4. BufferedReader adds line-reading capability and additional buffering.
+
+
+
 ### conclusion
 
 - pipeline is a sequence of processing steps or tasks arranged in a linear process.

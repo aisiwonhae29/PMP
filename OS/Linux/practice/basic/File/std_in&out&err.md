@@ -7,14 +7,15 @@
 
 ### usecase
 
-```
+-[detail url](../terminal/00-cmd.md)
 
-- >     +   filename : Redirects standard output to a file. If file contents exists, Overitten it or not exists file then create file.
-- >>    +   filename : Redirects standard output to a file. But appends to end of the file.
-- <     +   filename : Redirects standard input from a file. ex) cat < file.txt
-- 1>    +   filename : Redirects standard output to a file. ex) 1> log.txt
-- 2>    +   filename : Redirects standard error to a file. ex) 2> error.txt
-- &>    +   filename : Redirects standard input and error to a file.
-- file_name + arg    : argument applied on file.
+```
+- > 
+- >> 
+- <  
+- 1>
+- 2>
+- &>
+- file_name + arg
 
 ```

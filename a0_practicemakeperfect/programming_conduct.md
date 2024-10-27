@@ -27,3 +27,7 @@
 
 - router(translator)
 - Cache
+
+### Working
+
+- When i do the some project, then i have to know not only code and working process. (lg uplus manager process, because of this program chief insulted from lg)

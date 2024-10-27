@@ -22,4 +22,10 @@
 
 ### cmd
 
-- [$cmd] (-opt) | ([$cmd] (-opt) | ) | awk ['{$expression}']
+\# [$cmd] (-opt) | ([$cmd] (-opt) | ) | awk ['{$expression}']
+
+- echo"john doe 25" | awk '{print \$1}'   > john
+
+\#  awk (pattern [action] ) file
+
+- awk '{ sum += \$1 } END { print sum }' number.txt

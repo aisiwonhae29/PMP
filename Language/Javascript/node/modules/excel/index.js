@@ -6,10 +6,18 @@ let manipulate  = require('./module/manipulate');
 let fs = require('fs');
 let fp = require('fs').promises;
 
-const workbook = new excel.Workbook();
+function excelInit(){
+	const workbook = new excel.Workbook();
+	return workbook;
+}
+
+async function readFile(workbook){
+	workbook = await read.readFile('')
+	return workbook;
+}
 
 async function mainpulateExcel(array){
-    let workbookObj = await read.readFile('./target/' + "target2.xlsx", workbook);
+    let workbookObj = await read.readFile('./target/' + "quotation_org.xlsx", workbook);
     // workbookObj.worksheets[0].getCell('V14').value="Lord of the ring";
     let sheets = workbookObj.worksheets[0];
     sheets.tables={}; // Exceljs module makes conflict when handle the table object, and this makes the inner excel folder's xml file makes error.
@@ -17,7 +25,33 @@ async function mainpulateExcel(array){
 
     write.writeFile(workbookObj);
 }
-mainpulateExcel(['1'])
+
+let json = {
+	name: "siwon",
+	loc: "daejeon",
+	date: "2024-08-08",
+	history: [
+		{
+			a: 1,
+			b: 2,
+			c: 3,
+			d: 4,
+		},
+		{
+			a: 1,
+			b: 2,
+			c: 3,
+			d: 4,
+		},
+		{
+			a: 1,
+			b: 2,
+			c: 3,
+			d: 4,
+		},
+	],
+};
+mainpulateExcel(json);
 
 async function manipulation(workbookObj){
     rows = workbookObj._worksheets[14]._rows;
@@ -32,7 +66,7 @@ async function manipulation(workbookObj){
 function objectFinder(obj){
 	for(let key in obj){
 		if( typeof obj[key] == 'object' && !Array.isArray(obj[key])){
-			objectFinder(obj[key])
+			objectFinder(obj[key])  
 		}
 		console.log(obj[key]);
 	}
