@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "printwriter",
+            "request": "launch",
+            "mainClass": "com.example.intermediate.IOStream.printwriter",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
             "name": "dataStructure",
             "request": "launch",
             "mainClass": "com.example.basic.date.dataStructure",
