@@ -8,6 +8,8 @@
 
 <details><summary style="color: rgb(51, 204, 201); font-size:1.25rem">current working</summary>
 
+- Todo project
+- puppeteer
 - algorithm: sort like algorithm
 - https://www.elprocus.com/ethernet-protocol/
 - postman_session required site link
@@ -26,6 +28,7 @@
 
 <details><summary> folding </summary>
 
+- proxy layer
 - box-character input program
 - regex
 - queueMicrotask()
