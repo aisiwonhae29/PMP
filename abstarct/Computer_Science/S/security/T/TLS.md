@@ -97,3 +97,6 @@
 9. Secure symmetric encryption achieved
 
 - The handshake is completed, and communication continues using the session keys.
+
+## java case
+

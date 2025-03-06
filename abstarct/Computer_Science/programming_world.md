@@ -14,11 +14,15 @@
 ### F
 - flag: variable or a value that acts as a signal for a certain condition or behavior. Flag control the program with presence or absence of a features.
 - failover: A method of protecting computer systems from failure, in which standby equipment automatically takes over when the main system fails.
+- flash: This refers to the process of installing or writing firmware.
+- fetch: This refers to retrieving data from a server or database.
 ### G
 ### H
+- Headless browser: Handle browser without GUI screen.(generally executed with backend process)
 ### I
 - Intermediate value: generated during computation process. Temporary features.
 - i686: indicates about using 32-bit set architecture (ISA)
+- image file: This refers to snapshot or complete set of data to be loaded
 ### J
 ### K
 ### L
@@ -42,7 +46,9 @@
 - Serial port: This is a physical communication interface that enables the transfer of data between devices, such as a computer and a modem or a printer, this transmit data serially(bits of data are sent )
 - self contained: A datagram or packet carries all the essential information within itself to be processed and routed independently, with out relying on external factors.
 - System-wide: refers to something that affects or involves an entire system rather than just a specific part or component of that system.
+- Sigint: Signl interrupt event that indicate about interrupting or stop its execution. ex) ctrl + c
 ### T
+- Transpiling: Modify code to code, like c to js. The output is humanreadable.
 ### U
 ### V
 ### W

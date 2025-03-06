@@ -79,7 +79,7 @@
 - Message Brokers
   - RabbitMQ
   - Kafka
-- kubernetes
+- kubernetes: https://landscape.cncf.io/
 - Building for Scale
   - Difference between theses
     - Instrumentation

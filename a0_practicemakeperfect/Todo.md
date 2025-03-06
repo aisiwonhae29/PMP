@@ -2,6 +2,11 @@
 
 ### list to do
 
+- event loop, event queue, working order.
+- find out about clicking something
+  - click coordinates
+- coockie usage
+- subscribe logic
 - sort about
 - array
 - go4
