@@ -13,6 +13,7 @@
 - Entity: In the context of networking and programming, an 'entity' generally refers to a distinct and identifiable component or object that participates in a system or communication process.
 ### F
 - flag: variable or a value that acts as a signal for a certain condition or behavior. Flag control the program with presence or absence of a features.
+- feature flag: A technique that allows developers to enable or disable specific functionality in a software app without new code from switch code(developer with customer).
 - failover: A method of protecting computer systems from failure, in which standby equipment automatically takes over when the main system fails.
 - flash: This refers to the process of installing or writing firmware.
 - fetch: This refers to retrieving data from a server or database.
@@ -40,8 +41,9 @@
 - Primitive: simple functions
 ### Q
 ### R
-- Race Condition: A situation where the behavior of a program depends on the sequence or timing of events. Specifically, it occurs when the outcome of a program is affected by the order in which different parts of the code
-                are executed concurrently.
+- Race Condition: A situation where the behavior of a program depends on the sequence or timing of events. Specifically, it occurs when the outcome of a program is affected by the order in which different parts of the code are executed concurrently.
+- Redundancy: bakup or extra, on purpose, for safety.
+- release: 베포
 ### S
 - Serial port: This is a physical communication interface that enables the transfer of data between devices, such as a computer and a modem or a printer, this transmit data serially(bits of data are sent )
 - self contained: A datagram or packet carries all the essential information within itself to be processed and routed independently, with out relying on external factors.

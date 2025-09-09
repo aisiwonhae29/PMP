@@ -1,0 +1,28 @@
+{
+	"KOR": {
+		"1": "페이지 로딩 속도가 충분히 빠른가?",
+		"2": "모바일과 데스크탑 모두에서 잘 보이는가? (반응형 디자인)",
+		"3": "메뉴와 버튼이 직관적으로 배치되어 있는가?",
+		"4": "주요 버튼(CTA)이 눈에 잘 띄고 동작이 명확한가?",
+		"5": "에러 메시지가 사용자에게 이해하기 쉽게 안내되는가?",
+		"6": "입력 폼에 유효성 검사 기능이 잘 동작하는가?",
+		"7": "클릭이나 인터랙션 시 사용자 피드백이 제공되는가?",
+		"8": "사용자가 현재 위치나 진행 상태를 쉽게 파악할 수 있는가?",
+		"9": "색상 대비와 글자 크기가 접근성 기준에 맞는가?",
+		"10": "콘텐츠와 페이지 구조가 논리적으로 잘 배치되어 있는가?",
+		"11": "로그인 후 사용자가 올바른 페이지로 리디렉션되는가?"
+	},
+	"ENG": {
+		"1": "Is the page loading speed fast enough?",
+		"2": "Is the site responsive on both mobile and desktop?",
+		"3": "Are menus and buttons placed intuitively?",
+		"4": "Are the main call-to-action (CTA) buttons clear and visible?",
+		"5": "Are error messages clear and user-friendly?",
+		"6": "Do input forms validate correctly?",
+		"7": "Is user feedback provided on clicks and interactions?",
+		"8": "Can users easily identify where they are or their progress?",
+		"9": "Are color contrast and font sizes accessible?",
+		"10": "Is content and layout structured logically?",
+		"11": "After login, is the user redirected to the correct page?"
+	}
+}

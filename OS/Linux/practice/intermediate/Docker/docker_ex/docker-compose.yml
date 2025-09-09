@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      # When docker build is run, it will look for the dockerfile in the specified context
+      conetext:  ./backend
+    ports:
+      - "4000:4000"
+    networks:
+      - app-network
+    
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "3000:80"
+    networks:
+      - app-network
+    depends_on:
+      - backend
