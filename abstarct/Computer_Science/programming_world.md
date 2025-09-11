@@ -20,6 +20,7 @@
 ### G
 ### H
 - Headless browser: Handle browser without GUI screen.(generally executed with backend process)
+- Hook: The hook refers to a place in the code where user can insert their own code to modify behavior of the program.
 ### I
 - Intermediate value: generated during computation process. Temporary features.
 - i686: indicates about using 32-bit set architecture (ISA)
