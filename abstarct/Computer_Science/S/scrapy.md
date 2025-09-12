@@ -1,5 +1,15 @@
 # scrapy
 
+### implement
+
+- [code](../../../Tools/crawling/scrapy_proj/crawling_Tool/crawling_Tool/spiders/example.py)
+
+### start
+
+- python -m venv
+- start project: scrapy startproject [name]
+- start spider: scrapy genspider [name] [domain]
+
 ### cmd
 
 - scrapy startproject [String]: Set up the new scrapy project.
@@ -20,11 +30,31 @@
 
 - Spiders are classes that we define and that scrapy uses to scrape info from a website.
 - They must subclass spider and define the initial requests to make, optionally how to follow links in the pages, and how to parse the downloaded page content to extract data.
+- Devided with two types: Spider, CrawlSpider
+
+
 
 ### code
 
-- start_urls(array): The crawl started by making requests to the URLs defined in the 'start_urls' attribute.
-- parse: callback method.
+\# start_urls(array)
+
+- The crawl started by making requests to the URLs defined in the 'start_urls' attribute.
+
+\# parse
+
+- callback method.
+
+\# rules
+
+- The config file of scrapy.CrawlSpider
+
+**elements**
+
+- Rule: The tuple of rules
+- LinkExtractor: define how to extract links from the page
+- process_links: A method name which is called with the list of links extracted by the link extractor
+- callback: The method to be called after the link is extracted
+- follow: If true, the links will be followed after the callback is called
 
 ### feature
 

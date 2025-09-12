@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "printwriter",
+            "request": "launch",
+            "mainClass": "com.example.intermediate.IOStream.printwriter",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
             "name": "dataStructure",
             "request": "launch",
             "mainClass": "com.example.basic.date.dataStructure",
@@ -103,6 +110,21 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}\\node\\basic_level\\server\\GET_Request\\b.js"
+        },
+        // scrapy debugging launch config
+        {
+            "name": "Scrapy: Crawl ExampleSpider",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "scrapy",
+            "args": [ "crawl", "example" ],
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "C:\\Users\\ksw\\Desktop\\coding\\pmp\\Tools\\crawling\\scrapy_proj\\crawling_Tool" ,   // 스크래피 프로젝트 루트
+            "python": "C:\\Users\\ksw\\Desktop\\coding\\pmp\\.venv\\Scripts\\python.exe",
+            "env": {
+                "PYTHONPATH": "C:\\Users\\ksw\\Desktop\\coding\\pmp\\Tools\\crawling\\scrapy_proj\\crawling_Tool"
+            }
         }
     ]
 }

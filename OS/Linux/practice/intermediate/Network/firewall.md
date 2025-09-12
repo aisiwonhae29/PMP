@@ -2,6 +2,8 @@
 
 ### cmd
 
+**1. CentOS7**
+
 \# deamon
 
 - (sudo) systemctl [$(manipulate operation)] firewalld

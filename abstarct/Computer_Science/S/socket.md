@@ -2,6 +2,7 @@
 
 ### about
 
+- Working for IP address, port number, socket.
 - A socket is one endpoint of a two way communication link between two programs running on the network.
 - This provides a way for programs to communicate with each other, either on the same machine or over a network, using standard protcols.
 - The socket mechanism provides a means of inter-process communication (IPC) by establishing named contact points between which the communication take place.

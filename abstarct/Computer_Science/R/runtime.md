@@ -9,3 +9,10 @@
 
 - Runtime Environment : the collection of software and hardware resourcs that enbable a program to run.
 - Runtime behavior    : The behavior of a program while it is running, including resource mangement, error handling, and dynamic operation.
+
+
+# runtime environment
+
+### about
+
+- The runtime environment is the behavior of a program while it is running.****

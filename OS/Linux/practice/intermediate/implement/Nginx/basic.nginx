@@ -1,0 +1,4 @@
+worker_processes auto;
+error_log ./error.log
+pid ./nginx.pid
+

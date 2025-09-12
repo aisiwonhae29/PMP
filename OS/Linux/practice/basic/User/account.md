@@ -2,7 +2,9 @@
 
 ### user
 
-- new user: sudo useradd newuser
+- new user: sudo useradd newuser [-s: shell] [-d: home directory] [-m: create home directory] [-g: group] [-G: additional groups]
+  - ex)  useradd jhipster -s /bin/bash -m -g jhipster -G sudo && \
+  echo 'jhipster:jhipster' |chpasswd && \
 - set pw: sudo passwd newuser
 - add detail: sudo usermod -c "New User's Full name" newuser
 - assign privileges(sudoers group): sudo usermod -aG sudo newuser

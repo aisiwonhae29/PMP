@@ -10,6 +10,7 @@
 - npm config: about npm config
 - npm init -y: make basic package.json easily
 - npm -g install: without g (npm list -g: listing, npm bin -g: global binaries are located)
+- npm -D install: install as devDependencies(if NODE_ENV=production, devDependencies are not installed)
 
 ### Modules
 
