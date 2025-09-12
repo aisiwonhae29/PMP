@@ -24,3 +24,14 @@
   - This provides a hint to XML processors about where to find the XML schema file for the specified namespace.
   - The schemalocation attribute consits of pairs of space-separated values.
   - In this case, it indicates that hte XML Schema for the Maven POM 4.0.0 can be found at http://maven.apache.org/xsd/maven-4.0.0.xsd
+
+### object
+
+- <project>: The root element that defines the Maven project.
+- <modelVersion>: Always set to 4.0.0 for Maven 2 and above.
+- <groupId>: Specifies the group ID for the project, typically the package name.
+- <artifactId>: The artifact ID, or the name of the project.
+- <version>: Defines the project version (e.g., 1.0, 1.0-SNAPSHOT).
+- <dependencies>: A list of dependencies (libraries) required for your project.
+- <build>: This section is used to configure the build process.
+- <plugins>: Specifies plugins to manage the build lifecycle (e.g., maven-compiler-plugin for Java version).
