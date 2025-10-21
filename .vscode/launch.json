@@ -120,10 +120,11 @@
             "args": [ "crawl", "example" ],
             "console": "integratedTerminal",
             "justMyCode": true,
-            "cwd": "C:\\Users\\ksw\\Desktop\\coding\\pmp\\Tools\\crawling\\scrapy_proj\\crawling_Tool" ,   // 스크래피 프로젝트 루트
-            "python": "C:\\Users\\ksw\\Desktop\\coding\\pmp\\.venv\\Scripts\\python.exe",
+            "cwd": "${workspaceFolder}\\Tools\\crawling\\scrapy_proj\\crawling_Tool" ,   // 스크래피 프로젝트 루트
+            // "python": "C:\\Users\\ksw\\Desktop\\coding\\pmp\\.venv\\Scripts\\python.exe",
+            "python": "${workspaceFolder}\\venv\\Scripts\\python.exe",
             "env": {
-                "PYTHONPATH": "C:\\Users\\ksw\\Desktop\\coding\\pmp\\Tools\\crawling\\scrapy_proj\\crawling_Tool"
+                "PYTHONPATH": "${workspaceFolder}\\Tools\\crawling\\scrapy_proj\\crawling_Tool"
             }
         }
     ]

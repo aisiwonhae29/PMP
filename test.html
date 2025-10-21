@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Domain List UI (Table)</title>
+<style>
+  :root{
+    --bg:#f6f7fb;
+    --card:#ffffff;
+    --text:#1f2937;
+    --muted:#6b7280;
+    --line:#e5e7eb;
+    --success:#41c463;
+    --inactive:#c9ced6;
+    --accent:#ff7a00;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Helvetica,Arial,sans-serif;
+  }
+  .wrap{max-width:980px; margin:56px auto; padding:0 16px;}
+  .card{
+    background:var(--card); border-radius:14px; overflow:hidden;
+    box-shadow:0 6px 20px rgba(16,24,40,.06);
+  }
+
+  /* TABLE */
+  table{
+    width:100%;
+    border-collapse:separate;
+    border-spacing:0;
+  }
+  thead th{
+    text-align:left; font-weight:700; padding:18px 20px; color:#111827;
+    border-bottom:1px solid var(--line); background:transparent;
+  }
+  tbody td{
+    padding:18px 20px; vertical-align:middle; border-top:1px solid var(--line);
+    background:#fff;
+  }
+  /* 첫 행의 상단선 감추기 (테두리 정리) */
+  tbody tr:first-child td{ border-top:0; }
+
+  /* 컬럼 공통 */
+  .status{
+    display:flex; align-items:center; gap:10px; font-weight:600;
+  }
+  .dot{ width:10px; height:10px; border-radius:50%; box-shadow:0 0 0 3px rgba(0,0,0,.03) inset; }
+  .dot.active{ background:var(--success) }
+  .dot.inactive{ background:var(--inactive) }
+
+  .product{ display:flex; flex-direction:column; gap:4px; }
+  .product .name{ font-weight:700; }
+  .product .sub{ color:var(--muted); }
+
+  .price{ font-weight:700; }
+  .price small{ display:block; color:var(--muted); font-weight:500; margin-top:2px; }
+
+  .actions{ display:flex; align-items:center; gap:14px; }
+  .btn-icon{
+    display:inline-grid; place-items:center;
+    width:34px; height:34px; border-radius:10px; border:1px solid var(--line);
+    background:#fff; cursor:pointer; transition:transform .1s ease, box-shadow .15s ease;
+  }
+  .btn-icon:hover{ transform:translateY(-1px); box-shadow:0 4px 10px rgba(0,0,0,.06) }
+  .cp{ font-weight:800; font-size:15px; color:var(--accent); letter-spacing:.2px; }
+
+  .chev{
+    display:grid; place-items:center; width:36px; height:36px;
+    border-radius:10px; border:1px solid var(--line); background:#fff; cursor:pointer;
+  }
+
+  /* 헤더의 정렬 아이콘 (장식) */
+  .th-label{ display:inline-flex; align-items:center; gap:6px; opacity:.85; }
+  .sort{ width:10px; height:10px; display:inline-block; }
+
+  /* Footer */
+  .tfoot{
+    display:flex; justify-content:space-between; align-items:center;
+    color:var(--muted); padding:14px 6px 0;
+  }
+  .pager{ display:flex; align-items:center; gap:8px; }
+  .pagebtn{
+    width:30px; height:30px; border:1px solid var(--line);
+    background:#fff; border-radius:8px; display:grid; place-items:center; cursor:pointer;
+  }
+
+  /* Responsive: 모바일에서는 카드형으로 변환 */
+  @media (max-width:880px){
+    thead{ display:none; }
+    table, tbody, tr, td{ display:block; width:100%; }
+    tbody tr{ border-top:8px solid var(--bg); }
+    tbody td{ border:0; padding:10px 16px; }
+    tbody td.actions, tbody td.chevron{ display:flex; justify-content:flex-end; gap:10px; }
+    .price{ display:flex; align-items:center; gap:8px; }
+    .price small{ display:inline; margin:0; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <table aria-label="Domain list table">
+        <!-- 컬럼 폭: 170px / auto / 140px / 160px / 56px -->
+        <colgroup>
+          <col style="width:170px">
+          <col>
+          <col style="width:140px">
+          <col style="width:160px">
+          <col style="width:56px">
+        </colgroup>
+
+        <thead>
+          <tr>
+            <th><span class="th-label">Status
+              <svg class="sort" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 4l3-3 3 3H2zm0 2h6l-3 3-3-3z" fill="#9ca3af"/></svg>
+            </span></th>
+            <th><span class="th-label">Product/Service
+              <svg class="sort" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 4l3-3 3 3H2zm0 2h6l-3 3-3-3z" fill="#9ca3af"/></svg>
+            </span></th>
+            <th><span class="th-label">Price
+              <svg class="sort" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 4l3-3 3 3H2zm0 2h6l-3 3-3-3z" fill="#9ca3af"/></svg>
+            </span></th>
+            <th aria-hidden="true"></th>
+            <th aria-hidden="true"></th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td class="status"><span class="dot active"></span>Active</td>
+            <td>
+              <div class="product">
+                <span class="name">Standard</span>
+                <span class="sub">toysrus.com</span>
+              </div>
+            </td>
+            <td class="price">$200 <small>Yearly</small></td>
+            <td class="actions" aria-label="행동">
+              <button class="btn-icon" aria-label="정보">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10" stroke="#111827" stroke-width="1.5"/>
+                  <path d="M12 10v7" stroke="#111827" stroke-width="1.5" stroke-linecap="round"/>
+                  <circle cx="12" cy="7.5" r="1" fill="#111827"/>
+                </svg>
+              </button>
+              <button class="btn-icon" aria-label="cPanel"><span class="cp">cP</span></button>
+              <button class="btn-icon" aria-label="설정">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M12 15.3a3.3 3.3 0 1 0 0-6.6 3.3 3.3 0 0 0 0 6.6z" stroke="#111827" stroke-width="1.5"/>
+                  <path d="M19 13.5v-3l2-1.2-1.6-2.7-2.3.7a7.3 7.3 0 0 0-2.1-1.2L14.6 3h-3.2l-.4 2.1c-.7.2-1.4.5-2 .9l-2.3-.8L5.1 8 7 9.4v3.1L5 13.8 6.6 16.5l2.2-.7c.6.5 1.3.8 2 .9l.4 2.1h3.2l.4-2.1c.7-.2 1.4-.5 2.1-1l2.2.7 1.4-2.7-2-1.2z" stroke="#111827" stroke-width="1.2" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </td>
+            <td class="chevron">
+              <button class="chev" aria-label="펼치기">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M6 9l6 6 6-6" stroke="#111827" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="status"><span class="dot inactive"></span>Inactive</td>
+            <td><div class="product"><span class="name">Premium+</span><span class="sub">website.net ( + 7)</span></div></td>
+            <td class="price">$350 <small>Yearly</small></td>
+            <td class="actions">
+              <button class="btn-icon" aria-label="정보"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#111827" stroke-width="1.5"/><path d="M12 10v7" stroke="#111827" stroke-width="1.5" stroke-linecap="round"/><circle cx="12" cy="7.5" r="1" fill="#111827"/></svg></button>
+              <button class="btn-icon" aria-label="cPanel"><span class="cp">cP</span></button>
+              <button class="btn-icon" aria-label="설정"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 15.3a3.3 3.3 0 1 0 0-6.6 3.3 3.3 0 0 0 0 6.6z" stroke="#111827" stroke-width="1.5"/><path d="M19 13.5v-3l2-1.2-1.6-2.7-2.3.7a7.3 7.3 0 0 0-2.1-1.2L14.6 3h-3.2l-.4 2.1c-.7.2-1.4.5-2 .9l-2.3-.8L5.1 8 7 9.4v3.1L5 13.8 6.6 16.5l2.2-.7c.6.5 1.3.8 2 .9l.4 2.1h3.2l.4-2.1c.7-.2 1.4-.5 2.1-1l2.2.7 1.4-2.7-2-1.2z" stroke="#111827" stroke-width="1.2" stroke-linejoin="round"/></svg></button>
+            </td>
+            <td class="chevron">
+              <button class="chev" aria-label="펼치기"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="#111827" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="status"><span class="dot active"></span>Active</td>
+            <td><div class="product"><span class="name">Standard</span><span class="sub">letters.com</span></div></td>
+            <td class="price">$200 <small>Yearly</small></td>
+            <td class="actions">
+              <button class="btn-icon" aria-label="정보"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#111827" stroke-width="1.5"/><path d="M12 10v7" stroke="#111827" stroke-width="1.5" stroke-linecap="round"/><circle cx="12" cy="7.5" r="1" fill="#111827"/></svg></button>
+              <button class="btn-icon" aria-label="cPanel"><span class="cp">cP</span></button>
+              <button class="btn-icon" aria-label="설정"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 15.3a3.3 3.3 0 1 0 0-6.6 3.3 3.3 0 0 0 0 6.6z" stroke="#111827" stroke-width="1.5"/><path d="M19 13.5v-3l2-1.2-1.6-2.7-2.3.7a7.3 7.3 0 0 0-2.1-1.2L14.6 3h-3.2l-.4 2.1c-.7.2-1.4.5-2 .9l-2.3-.8L5.1 8 7 9.4v3.1L5 13.8 6.6 16.5l2.2-.7c.6.5 1.3.8 2 .9l.4 2.1h3.2l.4-2.1c.7-.2 1.4-.5 2.1-1l2.2.7 1.4-2.7-2-1.2z" stroke="#111827" stroke-width="1.2" stroke-linejoin="round"/></svg></button>
+            </td>
+            <td class="chevron">
+              <button class="chev" aria-label="펼치기"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="#111827" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="status"><span class="dot active"></span>Active</td>
+            <td><div class="product"><span class="name">Standard</span><span class="sub">webbit.com ( + 7 st)</span></div></td>
+            <td class="price">$200 <small>Yearly</small></td>
+            <td class="actions">
+              <button class="btn-icon" aria-label="정보"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#111827" stroke-width="1.5"/><path d="M12 10v7" stroke="#111827" stroke-width="1.5" stroke-linecap="round"/><circle cx="12" cy="7.5" r="1" fill="#111827"/></svg></button>
+              <button class="btn-icon" aria-label="cPanel"><span class="cp">cP</span></button>
+              <button class="btn-icon" aria-label="설정"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 15.3a3.3 3.3 0 1 0 0-6.6 3.3 3.3 0 0 0 0 6.6z" stroke="#111827" stroke-width="1.5"/><path d="M19 13.5v-3l2-1.2-1.6-2.7-2.3.7a7.3 7.3 0 0 0-2.1-1.2L14.6 3h-3.2l-.4 2.1c-.7.2-1.4.5-2 .9l-2.3-.8L5.1 8 7 9.4v3.1L5 13.8 6.6 16.5l2.2-.7c.6.5 1.3.8 2 .9l.4 2.1h3.2l.4-2.1c.7-.2 1.4-.5 2.1-1l2.2.7 1.4-2.7-2-1.2z" stroke="#111827" stroke-width="1.2" stroke-linejoin="round"/></svg></button>
+            </td>
+            <td class="chevron">
+              <button class="chev" aria-label="펼치기"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="#111827" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="status"><span class="dot inactive"></span>Inactive</td>
+            <td><div class="product"><span class="name">Premium+</span><span class="sub">fintune.com ( + 7 st)</span></div></td>
+            <td class="price">$350 <small>Yearly</small></td>
+            <td class="actions">
+              <button class="btn-icon" aria-label="정보"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#111827" stroke-width="1.5"/><path d="M12 10v7" stroke="#111827" stroke-width="1.5" stroke-linecap="round"/><circle cx="12" cy="7.5" r="1" fill="#111827"/></svg></button>
+              <button class="btn-icon" aria-label="cPanel"><span class="cp">cP</span></button>
+              <button class="btn-icon" aria-label="설정"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 15.3a3.3 3.3 0 1 0 0-6.6 3.3 3.3 0 0 0 0 6.6z" stroke="#111827" stroke-width="1.5"/><path d="M19 13.5v-3l2-1.2-1.6-2.7-2.3.7a7.3 7.3 0 0 0-2.1-1.2L14.6 3h-3.2l-.4 2.1c-.7.2-1.4.5-2 .9l-2.3-.8L5.1 8 7 9.4v3.1L5 13.8 6.6 16.5l2.2-.7c.6.5 1.3.8 2 .9l.4 2.1h3.2l.4-2.1c.7-.2 1.4-.5 2.1-1l2.2.7 1.4-2.7-2-1.2z" stroke="#111827" stroke-width="1.2" stroke-linejoin="round"/></svg></button>
+            </td>
+            <td class="chevron">
+              <button class="chev" aria-label="펼치기"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="#111827" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Footer -->
+    <div class="tfoot">
+      <div>Show <strong>5</strong> of <strong>5</strong> domains</div>
+      <div class="pager">
+        <span class="muted">5 - 5</span>
+        <button class="pagebtn" aria-label="이전">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M15 6l-6 6 6 6" stroke="#111827" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <button class="pagebtn" aria-label="다음">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="#111827" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

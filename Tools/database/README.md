@@ -1,5 +1,10 @@
 # use tip
 
+## todo
+
+- make table, if table not exist
+
+
 ## insert.py
 
 ### command 
